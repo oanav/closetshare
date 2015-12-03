@@ -1,0 +1,37 @@
+.credit-osclasswizards
+{
+clear:both;
+width:800px;
+
+height:40px;
+}
+.follow
+{
+ width:150px;
+
+ float:left;
+}
+.follow ul
+{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+.follow ul li
+{
+padding:0px 10px 0px 0px;
+margin:0px;
+float:left;
+
+}
+.donate
+{
+ width:400px;
+ float:left;
+ margin:-18px 0px 0px 0px;
+}
+.donate form
+{
+ padding:0px;
+ margin:0px 0px 0px 0px;
+}

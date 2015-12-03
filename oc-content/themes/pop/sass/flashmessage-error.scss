@@ -1,0 +1,70 @@
+.flashmessage {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  color: #ffffff;
+  position: relative; 
+  border: 2px solid #ccc; 
+  }
+
+.flashmessage-warning,
+.help-box {
+    color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc; }
+
+.flashmessage-error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1; }
+
+.flashmessage-ok {
+    color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6; }
+
+.flashmessage-info {
+    color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1; }
+
+.help-box {
+  padding: 5px 10px;
+  display: inline-block;
+ }
+
+.flashmessage .ico-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  float: right;
+  font-size: 18px;
+  line-height: 18px;
+  text-shadow: none;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer; }
+
+.flashmessage .ico-close {
+  color: #777; opacity:.5; }
+  .flashmessage .ico-close:hover {
+  opacity:1; }
+
+#error_list,
+.error_list {
+  list-style: none;
+ }
+
+#error_list li,
+.error_list li {
+  list-style: none;
+  padding: 2px 0 2px 18px; }
+
+#error_list li label,
+.error_list li label {
+  margin-top: 0;
+  float: none;
+  width: auto; }

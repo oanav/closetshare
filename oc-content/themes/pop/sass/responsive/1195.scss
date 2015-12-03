@@ -1,0 +1,68 @@
+.wrapper {
+    width: 100%;
+}
+body.item {
+    .item-detail {
+        float: left;
+        width: 100%;
+    }
+    .user-detail {
+        float: left;
+        width: 100%;
+    }
+    .listing-seller,
+    .user-products{
+        width: 100%;
+        float: left;
+    }
+    .photos.no-image {
+        display:none;
+    }
+}
+
+body.user,
+body.custom {
+    .wrapper {
+        width: 100%;
+    }
+    #sidebar {
+          width: 90%;
+          margin: 0 auto;
+          margin-bottom: 1em;
+          float: none;
+        ul.user_menu  {
+            padding: 1em;
+            margin: 0;
+            list-style: none;
+            li {
+                margin: 0 0 8px;
+                a {
+                    padding-bottom: 4px;
+                    width: 80%;
+                    font-size: 1em;
+                    line-height: 1em;
+                    display: block;
+                    margin-bottom: 1px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .user-content {
+          width: 90%;
+          padding: 1em;
+          margin: 0 auto;
+          float: none;
+        .header {
+            display: block;
+            margin-bottom: 1em;
+        }
+        .wrapper {
+            width: 100%;
+        }
+        .form-horizontal .select-box {
+            max-width: 280px;
+            width: 100%;
+        }
+    }
+}

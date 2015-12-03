@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-08 18:18+0100\n"
+"PO-Revision-Date: 2015-06-20 13:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/ajax_watchlist.php:19
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/ajax_watchlist.php:25
+msgid "View your watchlist"
+msgstr "Favorite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/ajax_watchlist.php:29
+msgid "Please login"
+msgstr "Autentificare"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:28
+msgid "Watchlist Help"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:31
+msgid "What is Watchlist Plugin?"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:34
+msgid ""
+"Watchlist plugin allows you to display a link that will allow user to save "
+"items on a watchlist page"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:37
+msgid "How does Watchlist plugin work?"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:40
+msgid ""
+"In order to use Watchlist plugin, you should edit your theme files and add "
+"the following line anywhere in the code you want the Watchlist link to appear"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:46
+msgid "Could I cutomize the style of Watchlist plugin?"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:49
+msgid ""
+"Of course you can. Watchlist display a link only you can use css to make a "
+"button or anything else"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:52
+msgid "Did Watchlist plugin work with all version of OSClass?"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:55
+msgid ""
+"In order to work this pluggin need OSClass v2.2 and up without this version "
+"pluggin will crash"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/help.php:58
+#, php-format
+msgid "You have %s version"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/index.php:18
+msgid "Add to watchlist"
+msgstr "Adauga la Favorite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/index.php:23
+msgid "Watchlist"
+msgstr "Favorite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/watchlist.php:31
+msgid "Your watchlist"
+msgstr "Favorite"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/watchlist.php:38
+msgid "You don't have any items yet"
+msgstr "Nu ai favorite momentan"
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/watchlist.php:40
+#, php-format
+msgid "You are watching %d item"
+msgid_plural "You are watching %d items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/watchlist.php:65
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: /Applications/XAMPP/xamppfiles/htdocs/osclass-plugins/watchlist/watchlist.php:65
+msgid "Delete"
+msgstr "Şterge"

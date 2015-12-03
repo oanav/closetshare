@@ -1,0 +1,8 @@
+social item success
+
+v1.1.0 - 2015-12-18  
+
+- Added item success page redirection on item validation.
+- Added open graph meta elements on item detail page.
+- Added Admin settings page.
+- Minor bug fixes.

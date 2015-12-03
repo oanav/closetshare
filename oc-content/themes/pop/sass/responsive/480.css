@@ -1,0 +1,46 @@
+.search .box .collapsable {
+  display: none;
+}
+
+.search .box {
+  display: none;
+}
+
+.search.listings {
+  margin: 0;
+}
+
+#main {
+  margin: 0;
+}
+
+.headline h1 {
+  font-size: 2.2em;
+}
+.headline h6 {
+  font-size: 1em;
+}
+
+.form-container .control-label {
+  float: none;
+  text-align: left;
+}
+.form-container .controls {
+  margin-left: 0;
+}
+.form-container .actions a {
+  display: block;
+}
+
+body.user-public-profile .container-user-card .user-card .user-card-right,
+body.user-public-profile .container-user-card .user-card .user-card-left {
+  float: none;
+  text-align: center;
+  width: 100%;
+  position: static;
+}
+body.user-public-profile .container-user-card .user-card #map_canvas {
+  position: absolute;
+}
+
+/*# sourceMappingURL=480.css.map */

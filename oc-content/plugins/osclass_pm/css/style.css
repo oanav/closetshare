@@ -1,0 +1,167 @@
+table.display td.pmCheckboxes {
+}
+a.mesLink, a.mesLink:visited {
+   color: #004E9D;
+   text-decoration: none;
+}
+a.mesLink:hover {
+   color: #004E9D;
+   text-decoration: underline;
+}
+
+td.newPM {
+   font-weight: bold;   
+}
+
+/* user-messages.php */
+.pm_main {
+    border-top: 1px solid #000;
+    padding: 5px;
+}
+.pm_author {
+   float: left;
+   font-size:12px;
+   color:red;
+}
+
+span.sender {
+   font-weight: bold;
+   font-size: 12px;
+}
+
+span.sender_name {
+   padding-left: 6px;
+   line-height: 16px;
+}
+
+.pm_message {
+   margin: 0 0 0 8em;
+}
+
+.pm_tools {
+   width: 100%;
+   overflow: hidden;
+   padding-bottom: 2px;
+}
+
+.pm_sub {
+   float: left;
+   width: 100%;
+}
+
+.pm_mess {
+   clear: right;
+   margin-top: 1em;
+   padding: 2px;
+   font-size:11px;
+}
+
+.messQuote {
+   border: 2px solid #9999AA;
+   background-color: #D7DAEC;
+   padding-bottom: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 8px 8px 8px 8px;
+}
+
+.quoteAuthor {
+   font-weight: bold;
+   padding-bottom: 2px;
+   border-bottom: 3px groove black;
+}
+
+.subject_pm {
+   width:50%;
+   font-weight: bold;
+   font-size:11px;
+   float:left;
+}
+
+.datum_pm {
+   width:50%;
+   text-align:right;
+   font-size:11px;
+   float:right;
+}
+
+.pm_menu {
+   float: right;
+   width: 50%;
+}
+
+ul.pm_tool {
+   clear: right;
+   float: right;
+   font: bold 0.85em arial,sans-serif;
+   margin: 0.9em 11px 0 0;
+   text-align: right;
+}
+
+
+ul.reset, ul.reset li {
+   list-style: none outside none;
+   margin: 0;
+   padding: 0;
+}
+
+ul.pm_tool li {
+   display: inline;
+   float: left;
+   margin: 0 0 0 5px;
+}
+
+li.reply {
+   background: url('../images/reply.png') no-repeat transparent;
+}
+
+li.quote {
+   background: url('../images/quote.png') no-repeat transparent;
+}
+
+li.del {
+   background: url('../images/delete.png') no-repeat transparent;
+}
+
+ul.pm_tool li a {
+   display: block;
+   float: left;
+   height: 20px;
+   line-height: 18px;
+   padding: 0 0 0 18px;
+}
+
+/* user-send.php */
+#sendMessage {
+   text-align: right;
+   padding-right: 5px;
+}
+
+#fromPM {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 12px;
+   font-weight: bold;
+   border-bottom: 3px groove black;
+}
+
+#replyMess {
+   padding-top: 5px;
+}
+
+/* user-pm-settings.php */
+td.pmSettingsSave {
+   text-align: right;
+}
+
+table.pmSettings tr {
+   height: 35px;
+}
+
+table.pmSettings td {
+   width: 50%;
+}
+#message {
+   width: 95%;
+}
+

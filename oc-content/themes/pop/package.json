@@ -1,0 +1,9 @@
+{
+    "name": "malibook",
+    "version": "1.0.0",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-less": "~0.6.4",
+        "grunt-contrib-sass": "~0.7.3"
+    }
+}

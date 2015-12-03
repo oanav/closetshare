@@ -1,0 +1,343 @@
+@import "colors.scss";
+
+.has-placeholder {
+position: relative;
+display: block;
+float: left;
+
+label {
+position: absolute;
+top: 0;
+left: 0;
+vertical-align: middle;
+color: #646464;
+line-height: 38px;
+height: 100%;
+width: 100%;
+text-decoration: none;
+padding: 0 15px;
+overflow: hidden;
+}
+}
+
+textarea {
+height: 150px;
+}
+
+input[type=text], input[type=password], textarea, .select-box select {
+font: 400 14px/35px 'Open Sans', sans-serif;
+border: solid 1px #ccc;
+border-radius: 2px;
+background-color: #fff;
+min-height: 38px;
+line-height: 38px;
+width: 100%;
+padding: 0 10px;
+box-sizing: border-box;
+-webkit-appearance: none;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+
+&:focus {
+box-shadow: 0 2px 5px #ddd;
+outline: none;
+}
+}
+
+
+.select-box {
+border: solid 1px #ccc;
+border-radius: 2px;
+font-size: 1em;
+}
+
+.link {
+color: $maincolor;
+}
+
+.link:hover {
+text-decoration: underline;
+}
+
+a {
+color: #636363;
+}
+
+a:hover {
+color: $maincolor;
+}
+
+a.btn:hover {
+text-decoration: none;
+}
+
+.btn, button, .ui-button {
+display: inline-block;
+padding: 8px 30px;
+text-transform: uppercase;
+border: 0;
+border-radius: 2px;
+font-weight: 500;
+line-height: 1.5;
+transition: all ease-in 300ms;
+}
+
+b, strong {
+font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: 500;
+}
+
+/* Selectmenu
+----------------------------------*/
+div.select-box-focus {
+outline: 0;
+-webkit-box-shadow: 0 0 5px #ccc;
+-moz-box-shadow: 0 0 5px #ccc;
+box-shadow: 0 0 5px #ccc;
+}
+
+.select-box {
+z-index: 0;
+position: relative;
+display: inline-block;
+width: auto;
+overflow: hidden;
+background-image: none;
+background-color: #fff;
+
+.select-box-label {
+overflow: hidden;
+display: block;
+float: left;
+position: absolute;
+top: 0;
+padding: 0px 15px;
+height: 100%;
+line-height: 38px;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+select {
+position: relative;
+left: 0px;
+top: 0px;
+width: 100%;
+-webkit-appearance: none;
+z-index: 1003;
+padding-right: 45px;
+}
+}
+
+.select-box-icon {
+z-index: 0;
+position: absolute;
+top: 0;
+right: 5px;
+height: 100%;
+width: 24px;
+text-decoration: none;
+display: block;
+font-family: "Material Icons";
+font-size: 24px;
+text-align: left;
+
+&:before {
+content: "\E5CF";
+}
+}
+
+.ui-button {
+}
+
+input.ui-button,
+button.ui-button {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.ui-button-main {
+}
+
+a.ui-button {
+line-height: 34px;
+}
+
+.ui-button-middle {
+height: 36px;
+font-size: 1em;
+line-height: 1em;
+}
+
+.doublebutton {
+float: right;
+
+a {
+border: solid 1px darken($widgetbordercolor,10%);
+background-color: $widgetbackground;
+cursor: default;
+font-size: 11px;
+font-weight: bold;
+text-align: center;
+white-space: nowrap;
+height: 16px;
+outline: 0;
+padding: 5px 6px;
+display: block;
+float: left;
+}
+
+a span {
+text-indent: -9999px;
+float: left;
+width: 16px;
+height: 16px;
+background-image: url(../images/icons.png);
+cursor: pointer;
+}
+
+.list-button {
+margin-right: -1px;
+border-right: none;
+
+span {
+background-position: -16px -16px;
+}
+}
+
+.grid-button {
+border-left: none;
+}
+}
+
+label {
+line-height: 20px;
+display: inline-block;
+}
+
+.checkbox input {
+display: none;
+}
+
+.checkbox label:before {
+content: "";
+display: inline-block;
+width: 20px;
+height: 20px;
+vertical-align: middle;
+background-color: #fff;
+border: 1px solid #999;
+color: $maincolor;
+text-align: center;
+margin-right: 7px;
+}
+
+.checkbox input[type=checkbox]:checked + label:before {
+content: "\2713";
+}
+
+span.active {
+a.grid-button span {
+background-position: -16px 0;
+}
+
+a.list-button {
+border: solid 1px darken($widgetbordercolor,10%);
+background-color: $widgetbackground;
+
+span {
+background-position: -0 -16px;
+}
+}
+}
+
+.active a.grid-button,
+.doublebutton a.list-button {
+background-color: $maincolor;
+border-color: darken($maincolor,10%);
+}
+
+.ui-widget {
+font-family: 'Open Sans';
+font-size: 1em;
+}
+
+.ui-dialog {
+background: #fff;
+box-shadow: 0 5px 15px 2px #999;
+border-radius: 0;
+z-index: 9999;
+padding: 0;
+
+.ui-button {
+border: 0;
+border-radius: 0;
+}
+
+.ui-dialog-titlebar {
+background: #fff;
+color: #333;
+text-transform: uppercase;
+border: 0;
+border-radius: 0;
+font-size: 1.2em;
+font-weight: 600;
+padding: 10px 20px;
+}
+
+.ui-dialog-content {
+padding: 20px;
+box-shadow: none;
+}
+
+.ui-dialog-buttonpane {
+background: #fff;
+border-top: 1px solid #d3d3d3;
+
+.ui-button {
+border: none;
+outline: none;
+background: none;
+padding: 0;
+color: #333 !important;
+font-size: 1em;
+}
+
+.ui-buton:hover {
+color: #333 !important;
+}
+}
+}
+
+@import "form.scss";
+
+button {
+}
+
+.ui-drop-files {
+box-shadow: none;
+border: 4px dashed rgba(0, 0, 0, 0.2);
+height: 100px;
+background: rgba(0, 0, 0, 0.1);
+}
+
+.bordered-box {
+border: solid 1px $widgetbordercolor;
+padding: 10px;
+font-size: 0.75em;
+
+h2 {
+font-size: 1.2em;
+margin-top: 0;
+font-weight: bold;
+}
+}
+
+
+@import "flashmessage-error.scss";

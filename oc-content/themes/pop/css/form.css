@@ -1,0 +1,190 @@
+.alert_form_container {
+  padding: 0em 10px 1em; }
+
+.alert_form {
+  text-align: center; }
+
+.alert_form button {
+  width: 100%; }
+
+.alert_form input {
+  width: 100%; }
+
+.alert_form h3 {
+  padding: .5em 0px;
+  font-size: 17px; }
+
+.control-group {
+  clear: both;
+  margin-bottom: 10px; }
+
+.form-content {
+  padding: 10px 20px; }
+
+.form-container .controls input,
+.form-container .controls .select-box,
+.form-container .meta input {
+  width: 260px; }
+
+.form-container .ui-drop-files {
+  width: 260px;
+  padding: 0 10px;
+  height: 70px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 70px;
+  color: rgba(0, 0, 0, 0.5); }
+
+.form-container .controls {
+  font-size: 1em; }
+
+.form-container .checkbox input,
+input[type="checkbox"],
+.form-container .meta input[type="checkbox"],
+.form-container .controls input[type="checkbox"],
+input[type="radio"],
+.form-container .meta input[type="radio"],
+.form-container .controls input[type="radio"] {
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  margin-top: -2px;
+  padding: 0;
+  border: none;
+  box-shadow: none; }
+
+.meta_list .meta ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+  list-style: none; }
+  .meta_list .meta ul li {
+    clear: both;
+    list-style: none; }
+    .meta_list .meta ul li label {
+      width: auto;
+      margin-left: 5px;
+      float: none; }
+.meta_list .meta input[type="checkbox"] {
+  margin-top: 10px; }
+.meta_list .meta .cf_date_interval {
+  width: 100px; }
+.meta_list .meta:after {
+  content: "";
+  clear: both; }
+
+.form-container .checkbox {
+  margin-bottom: 5px; }
+  .form-container .checkbox label {
+    font-size: 0.85em; }
+
+.form-container button {
+  margin: 20px 0; }
+
+.form-horizontal .actions {
+  border-top: solid 1px #eeeeee;
+  padding: 10px 25px;
+  margin: 0 25px; }
+  .form-horizontal .actions a {
+    font-size: 0.85em; }
+.form-horizontal .control-label {
+  float: left;
+  width: 25%;
+  padding-right: 15px;
+  text-align: right; }
+.form-horizontal .control-label.required:after {
+  content: " * ";
+  color: #de3544; }
+.form-horizontal .controls {
+  width: 75%;
+  float: left; }
+  .form-horizontal .controls label {
+    float: none;
+    width: auto;
+    padding-top: 0;
+    text-align: left; }
+.form-horizontal .control-group,
+.form-horizontal .meta_list .meta {
+  clear: both;
+  margin-bottom: 10px; }
+.form-horizontal .control-group:after, .form-horizontal .control-group:before {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.form-container.box {
+  border: solid 1px #eeeeee;
+  border-top: 4px solid #de3544;
+  margin: 0 auto;
+  width: 600px; }
+  .form-container.box .header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 15px; }
+    .form-container.box .header h1 {
+      margin: 0;
+      font-size: 1.2em;
+      text-transform: uppercase; }
+
+.control-label {
+  font-weight: normal;
+  font-size: 15px;
+  text-align: right;
+  padding: 0; }
+
+input#price {
+  width: 120px; }
+
+#item-post select {
+  width: 100%; }
+
+#item-post #plugin-hook .row {
+  margin: 0; }
+#item-post #plugin-hook .form-group {
+  margin: 15px 0; }
+#item-post #plugin-hook label {
+  float: left;
+  text-align: right;
+  font-weight: 500;
+  width: 30%;
+  margin-right: 0;
+  padding-right: 15px; }
+#item-post #plugin-hook .select-box {
+  width: 260px; }
+
+.qq-upload-button {
+  background: #fff4f9;
+  border: 1px dashed #ccc; }
+
+#restricted-fine-uploader {
+  padding: 0 !important; }
+
+.form-container .photos input {
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none; }
+
+.photos_div {
+  margin-bottom: 20px; }
+
+.form-container .controls #photos a {
+  font-size: 12px !important; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+select option {
+  line-height: 24px;
+  padding: 7px; }
+
+select option:hover {
+  background: #de3544;
+  color: #fff; }
+
+.select-box + .select-box {
+  margin-top: 10px; }
+
+/*# sourceMappingURL=form.css.map */

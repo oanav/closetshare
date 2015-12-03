@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jair Milanes\n"
+"POT-Creation-Date: 2014-01-02 18:17-0300\n"
+"PO-Revision-Date: 2014-01-07 10:37-0300\n"
+"Last-Translator: Jmilanes <web@layoutz.com.br>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;dgettext\n"
+"X-Poedit-Basepath: E:\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: Servidor\\Zend\\Apache2\\htdocs\\DEVELOPMENT"
+"\\bazaarDelas\\oc-content\\plugins\\minify\n"
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:107
+msgid "Minifyer"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:126
+msgid "Load you ad's site faster than ever before!"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:127
+msgid ""
+"This plugin is a wrapper for the php Minify library created by <a href="
+"\"https://github.com/mrclay\">Steve Clay</a>."
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:128
+msgid "What it does?"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:129
+msgid ""
+"It compresses sources of content \n"
+"(usually files), combines the result and serves it with appropriate \n"
+"HTTP headers. These headers can allow clients to perform conditional \n"
+"GETs (serving content only when clients do not have a valid cache) \n"
+"and tell clients to cache the file for a period of time"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:134
+msgid ""
+"Copied from <a href=\"https://github.com/mrclay/minify\">https://github.com/"
+"mrclay/minify</a>"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:135
+msgid ""
+"If you want to know more about the Minify library go to it's page at Github "
+"- <a href=\"https://github.com/mrclay/minify\">https://github.com/mrclay/"
+"minify</a>"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:139
+msgid "Created by"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:140
+msgid ""
+"More OsClass plugins at <a href=\"http://blog.layoutz.com.br\">blog.layoutz."
+"com.br</a>"
+msgstr ""
+
+#: Servidor\Zend\Apache2\htdocs\DEVELOPMENT\bazaarDelas\oc-content\plugins\minify/admin/conf.php:136
+msgid "About"
+msgstr ""

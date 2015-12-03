@@ -1,0 +1,13 @@
+
+body.user,
+body.custom {
+    .user-content {
+        .form-horizontal label {
+            float: none;
+            text-align: left;
+        }
+        .form-horizontal .controls {
+            margin-left: 0px;
+        }
+    }
+}

@@ -1,0 +1,995 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: closet-share-1.0\n"
+"POT-Creation-Date: 2015-05-29 22:50+0200\n"
+"PO-Revision-Date: 2015-05-29 22:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\..\\themes\\osclasswizards\\\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:33
+msgid "Sorry but I can't find the page you're looking for"
+msgstr ""
+
+#: 404.php:37
+msgid "Let us help you, we have got a few tips for you to find it. "
+msgstr ""
+
+#: 404.php:46 header.php:160
+msgid "Search"
+msgstr ""
+
+#: 404.php:53
+msgid "<strong>Look</strong> for it in the most popular categories."
+msgstr "<strong>Caută</strong> în categoriile populare"
+
+#: admin/ads.php:29
+msgid "Ads management"
+msgstr "Gestionare anunţuri"
+
+#: admin/ads.php:33
+msgid ""
+"In this section you can configure your site to display ads and start "
+"generating revenue."
+msgstr ""
+
+#: admin/ads.php:33
+msgid ""
+"If you are using an online advertising platform, such as Google Adsense, "
+"copy and paste here the provided code for ads."
+msgstr ""
+
+#: admin/ads.php:39
+msgid "Header Ad"
+msgstr ""
+
+#: admin/ads.php:43
+msgid "This ad will be shown at the top of your website."
+msgstr ""
+
+#: admin/ads.php:47
+msgid "Homepage Ad"
+msgstr ""
+
+#: admin/ads.php:51
+msgid ""
+"This ad will be shown on the main site of your website. It will appear at "
+"the bottom of your site homepage."
+msgstr ""
+
+#: admin/ads.php:55
+msgid "Search results Ad (top of the page)"
+msgstr ""
+
+#: admin/ads.php:59
+msgid "This ad will be shown on top of the search results of your site."
+msgstr ""
+
+#: admin/ads.php:63
+msgid "Search results Ad (bottom of the page)"
+msgstr ""
+
+#: admin/ads.php:67
+msgid "This ad will be shown among the search results of your site."
+msgstr ""
+
+#: admin/ads.php:71
+msgid "Sidebar Ad"
+msgstr ""
+
+#: admin/ads.php:75
+msgid ""
+"This ad will be shown at the right sidebar of your website, on the product "
+"detail page."
+msgstr ""
+
+#: admin/ads.php:79 admin/settings.php:106
+msgid "Save changes"
+msgstr ""
+
+#: admin/favicon.php:29
+msgid "Favicon Image"
+msgstr ""
+
+#: admin/favicon.php:30
+msgid "The preferred size of the logo is 16x16 pixels."
+msgstr ""
+
+#: admin/favicon.php:37 admin/header.php:35 admin/homeimage.php:35
+msgid "Preview"
+msgstr ""
+
+#: admin/favicon.php:44 admin/homeimage.php:42
+msgid "Remove image"
+msgstr ""
+
+#: admin/favicon.php:51 admin/homeimage.php:49
+msgid "No image has been uploaded yet"
+msgstr ""
+
+#: admin/favicon.php:54 admin/homeimage.php:52
+msgid "Upload image"
+msgstr ""
+
+#: admin/favicon.php:56 admin/homeimage.php:54
+msgid ""
+"<strong>Note:</strong> Uploading another image will overwrite the current "
+"image."
+msgstr ""
+"<strong>Notă:</strong> Încărcarea altui logo va şterge şi înlocui pe cel "
+"actual."
+
+#: admin/favicon.php:64 admin/homeimage.php:62
+msgid "Accepted image (png,gif,jpg)"
+msgstr "Imagini acceptate (png, gif, jpg)"
+
+#: admin/favicon.php:70 admin/header.php:69 admin/homeimage.php:68
+msgid "Upload"
+msgstr ""
+
+#: admin/favicon.php:79 admin/header.php:78 admin/homeimage.php:77
+#, php-format
+msgid "The images folder <strong>%s</strong> is not writable on your server"
+msgstr ""
+
+#: admin/favicon.php:80 admin/homeimage.php:78
+msgid "Osclass can't upload the image from the administration panel."
+msgstr ""
+
+#: admin/favicon.php:81 admin/header.php:80 admin/homeimage.php:79
+msgid "Please make the aforementioned image folder writable."
+msgstr ""
+
+#: admin/favicon.php:86 admin/header.php:85 admin/homeimage.php:84
+msgid ""
+"To make a directory writable under UNIX execute this command from the shell:"
+msgstr ""
+
+#: admin/header.php:29
+msgid "Header logo"
+msgstr ""
+
+#: admin/header.php:42
+msgid "Remove logo"
+msgstr ""
+
+#: admin/header.php:49
+msgid "No logo has been uploaded yet"
+msgstr ""
+
+#: admin/header.php:52
+msgid "Upload logo"
+msgstr ""
+
+#: admin/header.php:53
+msgid "The preferred size of the logo is 177x30 pixels."
+msgstr ""
+
+#: admin/header.php:55
+msgid ""
+"<strong>Note:</strong> Uploading another logo will overwrite the current "
+"logo."
+msgstr ""
+"<strong>Notă:</strong> Încărcarea altui logo va şterge şi înlocui pe cel "
+"actual."
+
+#: admin/header.php:63
+msgid "Logo image (png,gif,jpg)"
+msgstr ""
+
+#: admin/header.php:79
+msgid "Osclass can't upload the logo image from the administration panel."
+msgstr ""
+
+#: admin/homeimage.php:29
+msgid "Banner Image"
+msgstr ""
+
+#: admin/settings.php:55
+msgid "Custom"
+msgstr ""
+
+#: admin/settings.php:56
+msgid "Donate"
+msgstr ""
+
+#: admin/settings.php:70 functions.php:642
+msgid "Theme settings"
+msgstr ""
+
+#: admin/settings.php:76
+msgid "Welcome message"
+msgstr ""
+
+#: admin/settings.php:82
+msgid "Search placeholder"
+msgstr ""
+
+#: admin/settings.php:86
+msgid "Show lists as:"
+msgstr ""
+
+#: admin/settings.php:89
+msgid "Grid"
+msgstr ""
+
+#: admin/settings.php:90
+msgid "List"
+msgstr ""
+
+#: admin/settings.php:95
+msgid "RTL view"
+msgstr ""
+
+#: alert-form.php:27
+msgid "You have sucessfully subscribed to the alert"
+msgstr ""
+
+#: alert-form.php:28 user-change_email.php:93
+msgid "Invalid email address"
+msgstr ""
+
+#: alert-form.php:29
+msgid "There was a problem with the alert"
+msgstr ""
+
+#: alert-form.php:60 search-sidebar.php:137
+msgid "Subscribe to this search"
+msgstr ""
+
+#: alert-form.php:80
+msgid "Subscribe now"
+msgstr ""
+
+#: common/head.php:24 item.php:194 loop-grid.php:78 loop-grid.php:133
+#: loop-grid.php:189 loop-list.php:82 loop-list.php:141 loop-list.php:206
+#: loop-search-grid.php:74 loop-search-grid.php:132 loop-search-grid.php:190
+#: loop-search-list.php:80 loop-search-list.php:144 loop-search-list.php:209
+#: loop-user-grid.php:73 loop-user-grid.php:122 loop-user-grid.php:176
+#: loop-user-list.php:72 loop-user-list.php:121 loop-user-list.php:175
+msgid "Delete"
+msgstr ""
+
+#: common/head.php:25
+msgid "Cancel"
+msgstr "Anulează"
+
+#: common/head.php:60
+msgid "Previous image"
+msgstr ""
+
+#: common/head.php:61
+msgid "Next image"
+msgstr ""
+
+#: common/head.php:62
+msgid "Close"
+msgstr ""
+
+#: contact.php:37
+msgid "Contact us"
+msgstr ""
+
+#: contact.php:48 item-send-friend.php:51 item.php:116 item.php:220
+#: user-public-sidebar.php:33
+msgid "Your name"
+msgstr ""
+
+#: contact.php:50 contact.php:68 item.php:126 user-public-sidebar.php:41
+msgid "optional"
+msgstr ""
+
+#: contact.php:58 user-public-sidebar.php:37
+msgid "Your email address"
+msgstr ""
+
+#: contact.php:66
+msgid "Subject"
+msgstr ""
+
+#: contact.php:76 item-send-friend.php:93 item.php:132
+#: user-public-sidebar.php:46
+msgid "Message"
+msgstr ""
+
+#: contact.php:87 item-send-friend.php:104 item.php:162 item.php:246
+#: user-public-sidebar.php:69
+msgid "Send"
+msgstr ""
+
+#: footer.php:38 header.php:67
+#, php-format
+msgid "Hi %s"
+msgstr ""
+
+#: footer.php:39 header.php:68
+msgid "My account"
+msgstr ""
+
+#: footer.php:41 header.php:70
+msgid "Log out"
+msgstr ""
+
+#: footer.php:45 functions.php:412 header.php:74 item.php:91 user-login.php:68
+msgid "Log in"
+msgstr ""
+
+#: footer.php:49 header.php:78 item.php:92 user-login.php:73
+msgid "Register for a free account"
+msgstr ""
+
+#: footer.php:56 header.php:112
+msgid "Publish your ad for free"
+msgstr ""
+
+#: footer.php:67 functions.php:416 user-public-sidebar.php:26
+msgid "Contact"
+msgstr ""
+
+#: functions.php:26
+msgid "ie. PHP Programmer"
+msgstr ""
+
+#: functions.php:41
+msgid "Hello Guest, Welcome to OsclassWizards"
+msgstr ""
+
+#: functions.php:236
+msgid "Categories"
+msgstr "Categorii"
+
+#: functions.php:284
+msgid "See more listings..."
+msgstr ""
+
+#: functions.php:397 item-post.php:39
+msgid "Publish a listing"
+msgstr ""
+
+#: functions.php:398
+msgid "Edit your listing"
+msgstr ""
+
+#: functions.php:399 item-send-friend.php:35
+msgid "Send to a friend"
+msgstr ""
+
+#: functions.php:400
+msgid "Contact publisher"
+msgstr ""
+
+#: functions.php:401
+msgid "Search results"
+msgstr ""
+
+#: functions.php:402
+#, php-format
+msgid "Search results: %s"
+msgstr ""
+
+#: functions.php:403
+msgid "Dashboard"
+msgstr ""
+
+#: functions.php:404
+#, php-format
+msgid "%s's profile"
+msgstr "Profilul utilizatorului %s"
+
+#: functions.php:405 functions.php:452
+msgid "Account"
+msgstr "Cont"
+
+#: functions.php:406 functions.php:442 search.php:135 user-alerts.php:83
+msgid "Listings"
+msgstr ""
+
+#: functions.php:407 functions.php:447 user-alerts.php:32 user-alerts.php:52
+msgid "Alerts"
+msgstr "Alerte"
+
+#: functions.php:408 user-profile.php:32 user-profile.php:45
+msgid "Update account"
+msgstr ""
+
+#: functions.php:409 functions.php:457
+msgid "Change email"
+msgstr "Modifică e-mail"
+
+#: functions.php:410 functions.php:462 user-change_username.php:34
+msgid "Change username"
+msgstr ""
+
+#: functions.php:411 functions.php:414 functions.php:467
+#: user-change_password.php:32 user-change_password.php:46
+#: user-forgot_password.php:52
+msgid "Change password"
+msgstr ""
+
+#: functions.php:413
+msgid "Recover password"
+msgstr ""
+
+#: functions.php:415
+msgid "Create a new account"
+msgstr ""
+
+#: functions.php:437
+msgid "Public Profile"
+msgstr ""
+
+#: functions.php:472 user-sidebar.php:25
+msgid "Delete account"
+msgstr ""
+
+#: functions.php:524
+msgid "Theme settings updated correctly"
+msgstr ""
+
+#: functions.php:535
+msgid "Ads management updated correctly"
+msgstr "Setările temei au fost actualizate corect"
+
+#: functions.php:549
+msgid "The favicon image has been uploaded correctly"
+msgstr ""
+
+#: functions.php:551 functions.php:567 functions.php:583
+msgid "An error has occurred, please try again"
+msgstr "A apărut o eroare, te rog încearcă din nou"
+
+#: functions.php:565
+msgid "The logo image has been uploaded correctly"
+msgstr ""
+
+#: functions.php:581
+msgid "The banner image has been uploaded correctly"
+msgstr ""
+
+#: functions.php:595
+msgid "The favicon image has been removed"
+msgstr ""
+
+#: functions.php:597 functions.php:610 functions.php:623
+msgid "Image not found"
+msgstr ""
+
+#: functions.php:608
+msgid "The logo image has been removed"
+msgstr ""
+
+#: functions.php:621
+msgid "The banner image has been removed"
+msgstr ""
+
+#: functions.php:689 functions.php:711
+msgid "All categories"
+msgstr "Toate categoriile"
+
+#: header.php:42
+msgid "Language:"
+msgstr ""
+
+#: header.php:146 item-post.php:61
+msgid "Select a category"
+msgstr ""
+
+#: header.php:151
+msgid "Select a region"
+msgstr ""
+
+#: item-post.php:53
+msgid "General Information"
+msgstr ""
+
+#: item-post.php:57 loop-grid.php:118 loop-list.php:59 loop-list.php:118
+#: loop-list.php:184 loop-search-list.php:59 loop-search-list.php:121
+#: loop-search-list.php:187 loop-user-grid.php:57 loop-user-grid.php:111
+#: loop-user-grid.php:161 loop-user-list.php:56 loop-user-list.php:110
+#: loop-user-list.php:160
+msgid "Category"
+msgstr "Categorie"
+
+#: item-post.php:68
+msgid "Title"
+msgstr ""
+
+#: item-post.php:76 item-sidebar.php:122 user-profile.php:136
+msgid "Description"
+msgstr ""
+
+#: item-post.php:85 item-sidebar.php:53 loop-grid.php:124 loop-list.php:71
+#: loop-list.php:130 loop-list.php:196 loop-search-grid.php:58
+#: loop-search-list.php:69 loop-search-list.php:133 loop-search-list.php:199
+#: loop-similar.php:61 loop-user-grid.php:63 loop-user-grid.php:113
+#: loop-user-grid.php:167 loop-user-list.php:62 loop-user-list.php:112
+#: loop-user-list.php:166 search-sidebar.php:84
+msgid "Price"
+msgstr ""
+
+#: item-post.php:109
+msgid "Images"
+msgstr ""
+
+#: item-post.php:120
+msgid "Listing Location"
+msgstr ""
+
+#: item-post.php:124 user-profile.php:88
+msgid "Country"
+msgstr ""
+
+#: item-post.php:132 search-sidebar.php:61 user-profile.php:96
+msgid "Region"
+msgstr ""
+
+#: item-post.php:140 search-sidebar.php:53 user-profile.php:104
+msgid "City"
+msgstr ""
+
+#: item-post.php:148
+msgid "City Area"
+msgstr ""
+
+#: item-post.php:156 user-profile.php:120 user-public-profile.php:82
+msgid "Address"
+msgstr "Adresă"
+
+#: item-post.php:167
+msgid "Seller's information"
+msgstr ""
+
+#: item-post.php:171 item.php:97 user-profile.php:56 user-register.php:45
+msgid "Name"
+msgstr ""
+
+#: item-post.php:179 user-login.php:43 user-recover.php:43
+#: user-register.php:53
+msgid "E-mail"
+msgstr ""
+
+#: item-post.php:189
+msgid "Show e-mail on the listing page"
+msgstr ""
+
+#: item-post.php:210 user-change_email.php:73 user-change_password.php:83
+#: user-change_username.php:119 user-profile.php:146
+msgid "Update"
+msgstr ""
+
+#: item-post.php:210
+msgid "Publish"
+msgstr ""
+
+#: item-send-friend.php:59 item.php:228
+msgid "Your e-mail"
+msgstr ""
+
+#: item-send-friend.php:68
+msgid "Your friend's name"
+msgstr ""
+
+#: item-send-friend.php:76
+msgid "Your friend's e-mail address"
+msgstr ""
+
+#: item-send-friend.php:85
+msgid "Subject (optional)"
+msgstr ""
+
+#: item-sidebar.php:60 user-public-profile.php:83 user-public-profile.php:91
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: item-sidebar.php:75 loop-grid.php:76 loop-grid.php:131 loop-grid.php:187
+#: loop-list.php:80 loop-list.php:139 loop-list.php:204
+#: loop-search-grid.php:72 loop-search-grid.php:130 loop-search-grid.php:188
+#: loop-search-list.php:78 loop-search-list.php:142 loop-search-list.php:207
+#: loop-user-grid.php:71 loop-user-grid.php:120 loop-user-grid.php:174
+#: loop-user-list.php:70 loop-user-list.php:119 loop-user-list.php:173
+msgid "Edit item"
+msgstr ""
+
+#: item-sidebar.php:83
+msgid "sold by"
+msgstr ""
+
+#: item-sidebar.php:98 item.php:76
+msgid "Contact seller"
+msgstr ""
+
+#: item-sidebar.php:135
+msgid "Mark as..."
+msgstr ""
+
+#: item-sidebar.php:136
+msgid "Mark as spam"
+msgstr ""
+
+#: item-sidebar.php:137
+msgid "Mark as misclassified"
+msgstr ""
+
+#: item-sidebar.php:138
+msgid "Mark as duplicated"
+msgstr ""
+
+#: item-sidebar.php:139
+msgid "Mark as expired"
+msgstr ""
+
+#: item-sidebar.php:140
+msgid "Mark as offensive"
+msgstr ""
+
+#: item-sidebar.php:152
+msgid "Useful information"
+msgstr ""
+
+#: item-sidebar.php:156
+msgid "Avoid scams by acting locally or paying with PayPal"
+msgstr "Evitaţi escrocheriile şi plătiţi direct (în mână) sau prin PayPal"
+
+#: item-sidebar.php:159
+msgid ""
+"Never pay with Western Union, Moneygram or other anonymous payment services"
+msgstr ""
+
+#: item-sidebar.php:162
+msgid ""
+"Don't buy or sell outside of your country. Don't accept cashier cheques from "
+"outside your country"
+msgstr ""
+
+#: item-sidebar.php:165
+msgid ""
+"This site is never involved in any transaction, and does not handle "
+"payments, shipping, guarantee transactions, provide escrow services, or "
+"offer \"buyer protection\" or \"seller certification\""
+msgstr ""
+
+#: item.php:61 item.php:64
+msgid "Image"
+msgstr ""
+
+#: item.php:80
+msgid "The listing is expired. You can't contact the publisher."
+msgstr ""
+
+#: item.php:84
+msgid "It's your own listing, you can't contact the publisher."
+msgstr ""
+
+#: item.php:88
+msgid ""
+"You must log in or register a new account in order to contact the advertiser"
+msgstr ""
+
+#: item.php:99
+#, php-format
+msgid "Name: %s"
+msgstr ""
+
+#: item.php:102
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: item.php:105
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: item.php:120
+msgid "Your e-mail address"
+msgstr ""
+
+#: item.php:126 user-public-sidebar.php:41
+msgid "Phone number"
+msgstr ""
+
+#: item.php:137
+msgid "Attachment"
+msgstr "Fişier ataşat"
+
+#: item.php:156 user-public-sidebar.php:63
+msgid "Enter the words above"
+msgstr ""
+
+#: item.php:158 user-public-sidebar.php:65
+msgid "Help"
+msgstr ""
+
+#: item.php:175
+msgid "Comments"
+msgstr ""
+
+#: item.php:189
+msgid "by"
+msgstr ""
+
+#: item.php:193
+msgid "Delete your comment"
+msgstr ""
+
+#: item.php:206
+msgid "Leave your comment"
+msgstr ""
+
+#: item.php:238
+msgid "Comment"
+msgstr ""
+
+#: item.php:261
+msgid "Related listings"
+msgstr ""
+
+#: loop-grid.php:56 loop-grid.php:116 loop-grid.php:172 loop-list.php:56
+#: loop-list.php:181 loop-search-grid.php:55 loop-search-grid.php:114
+#: loop-search-grid.php:173 loop-search-list.php:56 loop-search-list.php:118
+#: loop-search-list.php:184 loop-similar.php:48 loop-user-grid.php:56
+#: loop-user-grid.php:160 loop-user-list.php:55 loop-user-list.php:159
+msgid "Premium"
+msgstr ""
+
+#: loop-grid.php:77 loop-grid.php:132 loop-grid.php:188 loop-list.php:81
+#: loop-list.php:140 loop-list.php:205 loop-search-grid.php:73
+#: loop-search-grid.php:131 loop-search-grid.php:189 loop-search-list.php:79
+#: loop-search-list.php:143 loop-search-list.php:208 loop-user-grid.php:72
+#: loop-user-grid.php:122 loop-user-grid.php:175 loop-user-list.php:71
+#: loop-user-list.php:121 loop-user-list.php:174
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: loop-grid.php:82 loop-grid.php:137 loop-grid.php:193 loop-list.php:86
+#: loop-list.php:145 loop-list.php:210 loop-search-grid.php:78
+#: loop-search-grid.php:136 loop-search-grid.php:194 loop-search-list.php:84
+#: loop-search-list.php:148 loop-search-list.php:213 loop-user-grid.php:77
+#: loop-user-grid.php:125 loop-user-grid.php:180 loop-user-list.php:76
+#: loop-user-list.php:124 loop-user-list.php:179
+msgid "Activate"
+msgstr "Activează"
+
+#: loop-grid.php:118 loop-list.php:61 loop-list.php:120 loop-list.php:186
+#: loop-search-grid.php:60 loop-search-list.php:61 loop-search-list.php:123
+#: loop-search-list.php:189 loop-user-grid.php:57 loop-user-grid.php:112
+#: loop-user-grid.php:161 loop-user-list.php:56 loop-user-list.php:111
+#: loop-user-list.php:160 user-public-profile.php:88
+msgid "Location"
+msgstr ""
+
+#: loop-grid.php:122 loop-list.php:67 loop-list.php:126 loop-list.php:192
+#: loop-search-list.php:129 loop-search-list.php:195 loop-user-grid.php:61
+#: loop-user-grid.php:112 loop-user-grid.php:165 loop-user-list.php:60
+#: loop-user-list.php:111 loop-user-list.php:164
+msgid "Date"
+msgstr ""
+
+#: main.php:37
+msgid "Latest Listings"
+msgstr ""
+
+#: main.php:46
+msgid "There aren't listings available at this moment"
+msgstr ""
+
+#: main.php:58
+msgid "See all listings"
+msgstr ""
+
+#: search-sidebar.php:32
+msgid "Advanced Search"
+msgstr "Căutarea avansată"
+
+#: search-sidebar.php:45
+msgid "Your search"
+msgstr ""
+
+#: search-sidebar.php:70
+msgid "Show only"
+msgstr ""
+
+#: search-sidebar.php:75
+msgid "listings with pictures"
+msgstr ""
+
+#: search-sidebar.php:88
+msgid "Min"
+msgstr ""
+
+#: search-sidebar.php:93
+msgid "Max"
+msgstr ""
+
+#: search-sidebar.php:118
+msgid "Apply"
+msgstr "Aplică"
+
+#: search-sidebar.php:127
+msgid "Refine category"
+msgstr ""
+
+#: search.php:60
+msgid "Selected"
+msgstr ""
+
+#: search.php:61
+msgid "Nothing selected, input was"
+msgstr ""
+
+#: search.php:83
+#, php-format
+msgid "There are no results matching \"%s\""
+msgstr ""
+
+#: search.php:88
+#, php-format
+msgid "%1$d - %2$d of %3$d listings"
+msgstr ""
+
+#: search.php:122
+msgid "Premium listings"
+msgstr ""
+
+#: search.php:154
+msgid "Other searches that may interest you"
+msgstr ""
+
+#: user-alerts.php:56
+msgid "You do not have any alerts yet"
+msgstr ""
+
+#: user-alerts.php:65
+msgid "Alert"
+msgstr "Alertă"
+
+#: user-alerts.php:67
+msgid "This action can't be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: user-alerts.php:68
+msgid "Delete this alert"
+msgstr ""
+
+#: user-change_email.php:33 user-change_email.php:47
+msgid "Change e-mail"
+msgstr "Modifică e-mail"
+
+#: user-change_email.php:58
+msgid "Current e-mail"
+msgstr ""
+
+#: user-change_email.php:64
+msgid "New e-mail"
+msgstr ""
+
+#: user-change_email.php:92
+msgid "Email: this field is required"
+msgstr ""
+
+#: user-change_password.php:58
+msgid "Current password"
+msgstr ""
+
+#: user-change_password.php:66 user-forgot_password.php:39
+msgid "New password"
+msgstr ""
+
+#: user-change_password.php:74 user-forgot_password.php:45
+msgid "Repeat new password"
+msgstr ""
+
+#: user-change_username.php:49
+msgid "Username: this field is required"
+msgstr ""
+
+#: user-change_username.php:74
+msgid "The username is available"
+msgstr ""
+
+#: user-change_username.php:76
+msgid "The username is NOT available"
+msgstr ""
+
+#: user-change_username.php:96
+msgid "Change Username"
+msgstr ""
+
+#: user-change_username.php:109
+msgid "Username"
+msgstr ""
+
+#: user-forgot_password.php:30 user-recover.php:34
+msgid "Recover your password"
+msgstr ""
+
+#: user-items.php:59
+msgid "My listings"
+msgstr ""
+
+#: user-items.php:63
+msgid "No listings have been added yet"
+msgstr ""
+
+#: user-login.php:35
+msgid "Please Log In"
+msgstr ""
+
+#: user-login.php:51 user-register.php:61
+msgid "Password"
+msgstr ""
+
+#: user-login.php:61
+msgid "Remember me"
+msgstr ""
+
+#: user-login.php:76
+msgid "Forgot password?"
+msgstr ""
+
+#: user-profile.php:64
+msgid "User type"
+msgstr ""
+
+#: user-profile.php:72
+msgid "Cell phone"
+msgstr "Telefon mobil"
+
+#: user-profile.php:80
+msgid "Phone"
+msgstr ""
+
+#: user-profile.php:112
+msgid "City area"
+msgstr ""
+
+#: user-profile.php:128
+msgid "Website"
+msgstr ""
+
+#: user-public-profile.php:66
+msgid "User profile"
+msgstr ""
+
+#: user-public-profile.php:100
+msgid "User description"
+msgstr ""
+
+#: user-public-profile.php:111
+msgid "Latest listings"
+msgstr ""
+
+#: user-recover.php:53
+msgid "Send me a new password"
+msgstr ""
+
+#: user-register.php:35
+msgid "Register an account for free"
+msgstr ""
+
+#: user-register.php:69
+msgid "Repeat password"
+msgstr ""
+
+#: user-register.php:74
+msgid "Passwords don't match"
+msgstr ""
+
+#: user-register.php:87
+msgid "Create An Account"
+msgstr ""
+
+#: user-sidebar.php:26
+msgid "Are you sure you want to delete your account?"
+msgstr "Eşti sigur că vrei să-ţi ştergi contul?"

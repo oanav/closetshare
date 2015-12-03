@@ -1,0 +1,61 @@
+.wrapper {
+  width: 100%; }
+
+body.item .item-detail {
+  float: left;
+  width: 100%; }
+body.item .user-detail {
+  float: left;
+  width: 100%; }
+body.item .listing-seller,
+body.item .user-products {
+  width: 100%;
+  float: left; }
+body.item .photos.no-image {
+  display: none; }
+
+body.user .wrapper,
+body.custom .wrapper {
+  width: 100%; }
+body.user #sidebar,
+body.custom #sidebar {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  float: none; }
+  body.user #sidebar ul.user_menu,
+  body.custom #sidebar ul.user_menu {
+    padding: 1em;
+    margin: 0;
+    list-style: none; }
+    body.user #sidebar ul.user_menu li,
+    body.custom #sidebar ul.user_menu li {
+      margin: 0 0 8px; }
+      body.user #sidebar ul.user_menu li a,
+      body.custom #sidebar ul.user_menu li a {
+        padding-bottom: 4px;
+        width: 80%;
+        font-size: 1em;
+        line-height: 1em;
+        display: block;
+        margin-bottom: 1px;
+        text-decoration: none; }
+body.user .user-content,
+body.custom .user-content {
+  width: 90%;
+  padding: 1em;
+  margin: 0 auto;
+  float: none; }
+  body.user .user-content .header,
+  body.custom .user-content .header {
+    display: block;
+    margin-bottom: 1em; }
+  body.user .user-content .wrapper,
+  body.custom .user-content .wrapper {
+    width: 100%; }
+  body.user .user-content .form-horizontal .select-box,
+  body.custom .user-content .form-horizontal .select-box {
+    max-width: 280px;
+    width: 100%; }
+
+/*# sourceMappingURL=1195.css.map */

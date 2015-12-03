@@ -1,0 +1,284 @@
+﻿@import "colors.scss";
+
+body.search .breadcrumb {
+}
+
+.search-sidebar {
+width: 240px;
+
+.box {
+margin-bottom: 10px;
+padding: 15px;
+
+h2 {
+color: $maincolor;
+text-transform: uppercase;
+margin-bottom: 10px;
+border-bottom: 1px solid #ddd;
+margin: 0 -15px 15px -15px;
+padding: 5px 15px;
+}
+
+ul {
+list-style: none;
+}
+}
+
+.search-sidebar .filter {
+h6 {
+margin-bottom: .5em;
+}
+}
+
+.btn {
+width: 100%;
+}
+}
+
+.search-bar {
+background: #fff;
+border: 1px solid #ccc;
+margin: 10px 40px;
+padding: 10px 20px;
+text-align: center;
+
+input, .select-box {
+width: auto;
+background: transparent;
+}
+
+.form-group {
+display: inline-block;
+vertical-align: top;
+margin-right: 10px;
+}
+
+.price input:first-child {
+margin-right: 5px;
+}
+
+.plugin-hooks .row {
+display: inline-block;
+margin-right: 10px;
+margin-top: 0;
+}
+
+.btn-primary {
+background: transparent;
+color: #777;
+border: 1px solid #777;
+margin-top: 10px;
+}
+
+.btn-primary:hover {
+background: $maincolor;
+color: #fff;
+}
+}
+
+.search .toolbar {
+padding: .75em;
+margin-bottom: 1em;
+border-bottom: 1px solid #ccc;
+
+.sort {
+float: right;
+
+
+ul, li {
+display: inline-block;
+}
+
+ul li a {
+padding: 7px;
+}
+
+.active {
+color: $maincolor;
+}
+}
+}
+
+a.clear {
+float: left;
+cursor: pointer;
+line-height: 35px;
+margin-bottom: 30px;
+}
+
+.clear i {
+font-size: 1.2em;
+}
+
+
+.search.listings {
+margin-left: 250px;
+}
+
+.listings .item {
+padding: 0;
+min-width: 200px;
+max-width: 400px;
+margin-bottom: 15px;
+margin-right: 15px;
+background: #ffffff;
+border: 1px solid #ddd;
+position: relative;
+transition: ease box-shadow 500ms;
+
+&:hover {
+box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.listing-img {
+border-bottom: 1px solid #e2e2e2;
+display: block;
+overflow: hidden;
+width: 100%;
+height: 190px;
+}
+
+.listing-img img {
+display: block;
+height: auto;
+width: auto;
+margin: auto;
+transition: ease 500ms transform;
+}
+
+.listing-img img:hover {
+transform: scale(1.1);
+}
+
+.listing-attributes {
+padding: .5em 1em;
+line-height: 2em;
+border-bottom: 1px solid #e2e2e2;
+min-height: 80px;
+font-size: 1.2em;
+line-height: 1.4;
+
+.listing-price {
+color: $maincolor;
+display: block;
+font-weight: 500;
+}
+
+.listing-title {
+display: block;
+}
+
+.listing-category {
+font-size: 0.85em;
+line-height: 1.2em;
+text-decoration: none;
+}
+
+.listing-location {
+display: block;
+color: #a2a2a2;
+font-size: 0.85em;
+height: 2em;
+line-height: 2;
+
+.fa {
+margin-right: 5px;
+line-height: 2;
+}
+}
+}
+
+.listing-seller {
+padding: .5em 1em;
+font-size: .9em;
+color: #b5b5b5;
+cursor: pointer;
+display: inline-block;
+
+&:hover {
+color: $maincolor;
+}
+
+.listing-seller-avatar {
+float: left;
+overflow: hidden;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+
+.seller-name {
+max-width: 160px;
+overflow: hidden;
+line-height: 24px;
+margin-left: 5px;
+}
+}
+
+
+.actions > a {
+color: #b3b3b3;
+margin-right: 5px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.actions > a:hover {
+color: $maincolor;
+}
+
+.actions .watchlist {
+font-size: 0;
+}
+
+.admin-options {
+padding: 7px;
+
+.dropdown-toggle {
+float: right;
+cursor: pointer;
+color: #999;
+font-size: 1.2em;
+}
+
+.dropdown-menu {
+left: auto;
+right: 0;
+font-size: 1em;
+}
+}
+}
+
+.masonry .item {
+width: 250px;
+height: auto;
+
+img {
+height: auto;
+}
+}
+
+.listings .item.premium {
+border: 1px solid #FFDF00;
+background-color: #FFF9B8;
+}
+
+.listings .item.ad {
+text-align: center;
+background: transparent;
+}
+
+.sub_button {
+margin-top: 15px;
+line-height: 2;
+}
+
+.sub_button i {
+font-size: 1.4em;
+vertical-align: middle;
+margin-right: 4px;
+}
+
+.sub_button:hover {
+color: $maincolor;
+}

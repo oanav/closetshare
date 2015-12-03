@@ -1,0 +1,196 @@
+body.item {
+  background: #fff;
+}
+body.item #main {
+  max-width: 100%;
+}
+body.item .box {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.item-photos {
+  width: 100%;
+  margin-bottom: 30px;
+  background: #fff;
+}
+.item-photos .main-photo {
+  display: block;
+  overflow: hidden;
+  max-height: 560px;
+}
+.item-photos .thumbs {
+  margin-top: 10px;
+}
+.item-photos .thumbs a {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: inline-block;
+  opacity: .8;
+  margin-right: 10px;
+}
+.item-photos .thumbs a:hover {
+  opacity: 1;
+}
+
+.item-detail {
+  padding: 0 1em;
+}
+.item-detail .toolbar {
+  padding: .5em 1em;
+  background: #fbfbfb;
+  border: 1px solid #ddd;
+  font-size: .85em;
+  margin-bottom: 10px;
+}
+.item-detail .fa {
+  margin-right: 5px;
+}
+.item-detail .item-date, .item-detail .item-location {
+  color: #ababab;
+  display: inline-block;
+  margin-right: 10px;
+}
+.item-detail .item-price {
+  color: #de3544;
+  display: block;
+  line-height: 1.6em;
+  font-size: 1.6em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.item-detail .item-title {
+  display: block;
+  color: #646464;
+  font-size: 1.8em;
+  margin-bottom: 7px;
+}
+.item-detail .share-links {
+  padding: 1em 0;
+}
+.item-detail .watchlist {
+  padding: 10px;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+.item-detail .watchlist:hover {
+  border-color: #de3544;
+}
+
+.item-details {
+  padding: 0 1em;
+}
+.item-details .header {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 5px 0;
+  border-bottom: 1px solid #999;
+}
+.item-details .meta_list {
+  margin: .5em 0;
+}
+.item-details .meta_list .meta {
+  display: inline-block;
+  margin-right: 15px;
+}
+.item-details .item-description {
+  display: block;
+  color: #b5b5b5;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+}
+
+.user-detail .listing-seller {
+  padding: 1em 1.5em;
+  text-align: center;
+}
+.user-detail .listing-seller .listing-seller-avatar {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  background-size: 100%;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-detail .listing-seller .seller-name {
+  font-size: 1.6em;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+.user-detail .listing-seller .link {
+  font-size: 1rem;
+}
+.user-detail .listing-seller .seller-location {
+  color: #ababab;
+}
+.user-detail .user-phone {
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 200px;
+  font-size: 1.3em;
+  text-align: left;
+}
+.user-detail .user-phone i, .user-detail .user-phone span {
+  padding: 8px 12px;
+}
+.user-detail .user-phone i {
+  border-right: 1px solid #ccc;
+}
+.user-detail .seller-products {
+  margin-top: 10px;
+  color: #b5b5b5;
+}
+.user-detail .seller-products span {
+  font-size: .8em;
+}
+.user-detail #contact_btn {
+  width: 100%;
+  margin-top: 20px;
+  display: block;
+  font-size: 16px;
+}
+.user-detail #contact_btn .md-icon {
+  margin-right: 5px;
+  margin-top: -2px;
+}
+.user-detail #contact_btn:hover {
+  background: #de3544;
+  color: #fff;
+}
+
+.user-products {
+  padding: 1em 1.5em;
+}
+.user-products p {
+  line-height: 24px;
+  margin-bottom: .5em;
+}
+.user-products .user-item {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  width: 110px;
+  float: left;
+  margin: 5px;
+  border: 1px solid #eee;
+}
+.user-products .user-item img {
+  height: 125%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.user-products .user-item a {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=item.css.map */

@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OSClass\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-24 18:52+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Juan Ramón <juanramon@osclass.org>\n"
+"Language-Team: OSClass <info@osclass.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"Plural-Forms: nplurals=2; plural=n !=1;\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "View your watchlist"
+msgstr "دیدن watchlist شما"
+
+msgid "Please login"
+msgstr "لطفا وارد سایت شوید"
+
+msgid "Watchlist Help"
+msgstr "Watchlist راهنما"
+
+msgid "What is Watchlist Plugin?"
+msgstr "What is Watchlist Plugin?"
+
+msgid "Watchlist plugin allows you to display a link that will allow user to save items on a watchlist page"
+msgstr "Watchlist plugin allows you to display a link that will allow user to save items on a watchlist page"
+
+msgid "How does Watchlist plugin work?"
+msgstr "How does Watchlist plugin work?"
+
+msgid "In order to use Watchlist plugin, you should edit your theme files and add the following line anywhere in the code you want the Watchlist link to appear"
+msgstr "In order to use Watchlist plugin, you should edit your theme files and add the following line anywhere in the code you want the Watchlist link to appear"
+
+msgid "Could I cutomize the style of Watchlist plugin?"
+msgstr "Could I cutomize the style of Watchlist plugin?"
+
+msgid "Of course you can. Watchlist display a link only you can use css to make a button or anything else"
+msgstr "Of course you can. Watchlist display a link only you can use css to make a button or anything else"
+
+msgid "Did Watchlist plugin work with all version of OSClass?"
+msgstr "Did Watchlist plugin work with all version of OSClass?"
+
+msgid "In order to work this pluggin need OSClass v2.2 and up without this version pluggin will crash"
+msgstr "In order to work this pluggin need OSClass v2.2 and up without this version pluggin will crash"
+
+msgid "You have %s version"
+msgstr "شما دارید نسخه %s "
+
+msgid "Add to watchlist"
+msgstr "اضافه کردن به watchlist"
+
+msgid "Watchlist"
+msgstr "Watchlist"
+
+msgid "Your watchlist"
+msgstr "watchlist شما"
+
+msgid "You don't have any items yet"
+msgstr "شما هنوز هیچ آیتمی ندارید"
+
+msgid "You are watching %d item"
+msgstr "شما در حال مشاهده %d هستید"
+
+msgid "This action can not be undone. Are you sure you want to continue?"
+msgstr "این اقدام را نمی توان باز گرداند. آیا شما برای ادامه مطمئن هستید؟"
+
+msgid "You are watcihng %d items"
+msgstr "شما در حال مشاهده %d هستید"
+

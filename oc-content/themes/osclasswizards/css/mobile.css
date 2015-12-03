@@ -1,0 +1,30 @@
+ @media only screen and (max-width:900px) {
+.top_links {text-align: center;
+}
+.welcome-message, .top_links ul, .language {float: none;
+}
+.top_links li {margin: 0 5px;
+}
+.toggle {display: block;
+}
+.main_header .container {position: relative;
+}
+.links {display: none;float: none!important;position: absolute;left: 0;top: 98px;background-color: #21292d;width: 100%;margin: 0;padding: 10px 0;
+}
+.links li {display: block;line-height: 25px;margin: 0 20px;
+}
+.publish {clear: left;float: none;padding: 15px 0 0;
+}
+.publish .btn {display: block;
+}
+.main-search .selector {margin: 10px 0;
+}
+#listing-card-list li.premium h4 a {display: block;
+}
+#listing-card-list li.premium h4 span {float: left;clear: left;display: inline-block;margin: 10px 0;
+}
+.listing-attributes {clear: left;
+}
+}
+
+

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1195px){
+    @import "responsive/1195.scss";
+}
+@media only screen and (max-width: 780px){
+  @import "responsive/740.scss";
+}
+@media only screen and (max-width: 640px){
+  @import "responsive/640.scss";
+}
+@media only screen and (max-width: 480px){
+  @import "responsive/480.scss";
+}
+@media only screen and (max-width: 320px){
+  @import "responsive/320.scss";
+}
+ 

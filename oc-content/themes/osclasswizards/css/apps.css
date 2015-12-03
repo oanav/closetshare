@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,600,500,400);
+/*
+* Copyright 2015, http://www.osclasswizards.com/
+* Based on bootstrap framework by http://getbootstrap.com/
+*/
+
+/*reset file*/
+
+body {
+    font: 400 14px/25px 'Roboto', sans-serif;
+    color: #777;
+}
+
+h1, h2, h3, h4, h5, h6, .listings h2 a, .detail_info h4 a {
+    color: #555;
+    font-weight: 500;
+}
+b, strong {
+  font-weight: 500;
+}
+
+a, .listings ul li.last a:hover, .language span:hover {
+    color: #a09f9f;
+}
+
+a:hover, a:active, a:focus, .listings h2 a:hover, .detail_info h4 a:hover, .sorting a.active, .sort a.current, .language span {
+    color: #FF0080;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+/*input fields*/
+
+input[type=text], input[type=password], textarea, select, .btn {
+    font: 400 14px/35px 'Roboto', sans-serif;
+}
+
+input[type=text], input[type=password], textarea, select, div.fancy-select div.trigger, div.fancy-select ul.options {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+}
+
+.btn-success:hover, .btn-focus, .contact_button a:hover, .thumbs a:hover {
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.publish .btn {
+    font-size: 14px;
+}
+/*fash messages*/
+.flashmessage-error, #error_list label, #comment_error_list label, .flashmessage-warning {
+    background: #fed2d3;
+    border: solid 1px #d8929c;
+    color: #6a000c;
+    display: block!important;
+}
+
+.flashmessage-info, .flashmessage-ok {
+    border: 1px solid #c9e8a9;
+    background-color: #eff8e6;
+    color: #427e38;
+}
+
+.message_errors h3 a, .message_errors h3, #logo a, #related-searches .footer-links li a, .links a, .pagination span, .pagination a:hover, .listings h2 span, #listing-card-list li h4 span, .contact_button a, #footer, .search_filter li li a, #footer a:hover, #item-post h2, #item-price {
+    color: #fff;
+}
+
+.message_errors h3, .pagination span, #related-searches .footer-links li a, .pagination a:hover, .listings h2 span, #listing-card-list li h4 span, .contact_button a, .title:after, .block h2:after, .search_filter li li a, #item-post h2, #item-price {
+    background-color: #FF0080;
+}
+
+.btn-link, .btn-link:hover, .btn-success, .btn-success:hover, .btn-focus {
+    background-color: #FF0080;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-publish {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+.filters h3 {
+    color: #FF0080;
+    padding: 5px 0;
+}
+.contact_button {
+    margin-bottom: 20px;
+}
+#contact {
+    padding: 15px 30px;
+}
+#contact .name a, .links a:hover {
+    color: #FF0080;
+}
+
+#contact .user-info {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#contact button {
+    font-weight: 500;
+    margin: auto;
+}
+
+#main_search {
+    border-bottom: 5px solid #FF0080;
+}
+
+.main_header, #main_search, #footer, .language ul, .message_errors h3:hover {
+    background-color: #21292d;
+}
+
+.page_error, #comment_form, .comments_list, #contact, #mask_as_form, .dashboard_form form, .block section, .dashboard_watchlist, .user-card, .ads_home, .ads_header, .ads_search_top, .ads_search_bottom, .ads_300 {
+    background-color: #fbfbfb;
+    border: 1px solid #eaeaea;
+}
+
+.title, .block h2 {
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.item-title {
+    font-size: 18px;
+}
+
+.wraps form, .listings {
+    border: 1px solid #eaeaea;
+}
+
+.wraps form {
+    background-color: #fdfdfd;
+}
+
+.control-label sup {
+    color: #F00;
+}
+
+#footer {
+    border-top: solid 5px #FF0080;
+}
+/*listings*/
+
+.user_menu li a, .language ul li a:hover, .language ul li a.active {
+    background-color: #fdfdfd;
+    display: block;
+}
+
+#listing-card-list li {
+    margin-bottom: 15px;
+}
+
+#listing-card-list li.premium {
+    background-color: #fff;
+}
+
+.listing-card {
+    border: 1px solid #ccc;
+}
+
+.listing-card img {
+    width: 100%;
+    height: auto;
+}
+
+.listing-card .detail_info {
+    padding: 0 10px;
+}
+
+.detail_info .location {
+    font-size: .9em;
+    color: #b5b5b5;
+}
+.admin-options {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+.state a, .state span{ display: inline-block; padding: 2px 12px;}
+.state > a {display: none}
+.state:hover > a {display: inline-block;}
+.state:hover > span {display: none;}
+
+.state .inactive { background: #eaeaea; color: #777; }
+.state .active { background: #c9e8a9; color: #427e38; }
+.listing-card .stats {
+    color: #b4b4b4;
+    font-size: .85em;
+    margin-top: 5px;
+}
+.listing-card .listing-seller {
+    border-top: 1px solid #ccc;
+    padding: .6em;
+}
+
+.listing-seller .listing-seller-avatar {
+    float: left;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: 32px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.listing-seller:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.listing-seller span {
+    display: block;
+    max-width: 180px;
+    line-height: 1.6;
+}
+
+.listing-seller {
+    line-height: 1.5;
+}
+
+.listing-seller .seller-listings {
+    font-size: .8em;
+    color: #b5b5b5;
+}
+
+.listing-card .currency-value {
+    float: right;
+}
+
+#itemMap {
+    border: solid 5px #fff;
+}
+
+#useful_info {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.item-header #wrapper_voting_plugin {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.item-header i {
+    margin-right: 5px;
+}
+
+.item-header .item-date {
+    font-size: 12px;
+}
+
+.item-header .listing-seller a {
+    color: #FF0080;
+}
+
+.social-bookmarks {
+    margin-top: 25px;
+}
+
+#item-price {
+    float: right;
+    padding: 8px 15px;
+}
+
+.item-details {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.seller-info .btn-link {
+    float: right;
+    padding: 0 10px;
+}
+
+.search_filter li li a:hover, #related-searches .footer-links li a:hover {
+    background-color: #21292d;
+}
+/*dashboard user page*/
+
+.user-items .user_menu li.opt_items a, .user-alerts .user_menu li.opt_alerts a, .user-profile .user_menu li.opt_account a, .user-change_email .user_menu li.opt_change_email a, .user-username .user_menu li.opt_change_email a, .user-usernames .user_menu li.opt_change_username a, .user-passowrd_change .user_menu li.opt_change_password a, .user_menu li a:hover {
+    background: #FF0080;
+    color: #fff;
+}
+
+.user-card {
+    padding: 20px;
+}
+
+.select-box-trigger {
+    display: none;
+}
+
+#plugin-hook .row {
+    margin: 0;
+}
+
+.ui-widget-header {
+    background: #FF0080;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.ui-widget-content {
+    padding: 0;
+    border: 0;
+    box-shadow: 0px 0px 6px #bbb;
+}
+.ui-widget button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.qq-uploader .qq-upload-button {
+    padding: 10px;
+    background: #fcdfed;
+    border: 1px dashed #ccc;
+}

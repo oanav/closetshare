@@ -1,0 +1,216 @@
+#content-page{
+    padding: 0px;
+}
+#content-page .row-wrapper{
+    margin-left: 0px;
+    margin-right:0px;
+}
+#live-preview{
+    position: absolute;
+    height: 100%;
+    width: 848px;
+    top: 0;
+    border: 0;
+    border-left: solid 340px #8e8e8e;
+}
+#general-settings{
+    z-index: 999;
+    position: relative;
+    background-color: #eee;
+    width: 300px;
+    height: 100%;
+    padding:20px;
+}
+#general-settings .form-actions{
+    margin-bottom:0;
+}
+#content-page{
+    position: relative;
+}
+#content-page > .grid-system{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#sidebar{
+    z-index: 9999;
+}
+
+div.mk-item .mk-info div.market-actions{
+    display: table !important;
+    width: auto;
+    bottom: 5px;
+}
+.market-actions a{
+    font-size: 13px;
+    color: #FFF;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    display: table-row;
+}
+.market-actions a:hover{
+    text-decoration: none;
+}
+.market-actions a:hover strong{
+    color: #777;
+    text-decoration: underline;
+}
+.market-actions a strong{
+    padding:4px 10px;
+    background: #e0e0e0;
+    color:#777;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom:5px;
+}
+.market-actions a strong.select,
+.market-actions a:hover strong.select{
+    background: #7400A2;
+    color: #FFF;
+}
+.mk-item .mk-info div{
+    width: auto;
+}
+#general-settings{
+    overflow-x:hidden;
+}
+#general-settings .head{
+    background: rgba(0,0,0,0.4);
+    padding:20px;
+    width: 100%;
+    margin-left:-20px;
+    margin-top:-20px;
+    color:#fff;
+}
+#general-settings .head a{
+    color: #BABABA;
+    float: none;
+}
+
+#general-settings .card{
+    width: 100%;
+    margin:15px 0;
+    float:left;
+    margin-right: -100%;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    position: relative;
+    z-index: 1;
+}
+#general-settings .card-left{
+    margin-left:-120%;
+    margin-right:0;
+    opacity: 0;
+}
+.show-left-card div.card-left{
+    margin-left:0% !important;
+    opacity: 1 !important;
+    z-index: 2;
+}
+.show-left-card .card{
+    margin-left: 0% !important;
+    opacity: 0 !important;
+}
+
+.show-left-card .current-theme-wrapper{
+    height: 0px;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+
+}
+.widget-settings{
+    background-color:#fff;
+    border-radius:4px;
+    padding:10px;
+    font-size: 12px;
+}
+.widget-settings .head-section td{
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#777;
+}
+.widget-settings .head-section td div{
+    border-bottom:solid 3px #e1e1e1;
+    margin-bottom:4px;
+}
+.current-theme-wrapper{
+    overflow: hidden;
+    height: 240px;
+    padding-left: 20px;
+    margin-left: -20px;
+    margin-top:-15px;
+    margin-bottom:30px;
+    width: 320px;
+    background: rgba(0,0,0,0.4);
+    padding-top: 1px;
+}
+.head-section-btn{
+    display: block;
+    width: 100%;
+    background:rgb(72, 16, 126);
+    padding: 20px;
+    margin-left: -20px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.card-left .head-section-btn{
+    background: rgba(0, 0, 0,0.6);
+}
+a#back-current{
+    display: none;
+}
+.show-left-card a#back-current{
+    display: inline-block;
+}
+.head .toggle-theme-options{
+    display: inline-block;
+}
+.show-left-card .head .toggle-theme-options{
+    display: none;
+}
+.head a#open-lcd{
+    color: rgb(186, 186, 186);
+    float: none;
+    background-color: rgb(97, 97, 97);
+    border-color: rgb(97, 97, 97);
+    background-color: rgb(97, 97, 97);
+    border-color: rgb(97, 97, 97);
+}
+
+.colorpicker-trigger{
+	position: relative;
+	height: 30px;
+	display: block;
+	width:30px;
+	float:right;
+}
+.widget-settings .select-box{
+	float: right;
+}
+.colorpicker-trigger .mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+	background-position:-3px -3px;
+}
+.colorpicker-trigger .color{
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: 25px;
+	height: 25px;
+	background: red;
+}

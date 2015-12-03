@@ -1,0 +1,240 @@
+.search-sidebar {
+  width: 240px;
+}
+.search-sidebar .box {
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.search-sidebar .box h2 {
+  color: #de3544;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  margin: 0 -15px 15px -15px;
+  padding: 5px 15px;
+}
+.search-sidebar .box ul {
+  list-style: none;
+}
+.search-sidebar .search-sidebar .filter h6 {
+  margin-bottom: .5em;
+}
+.search-sidebar .btn {
+  width: 100%;
+}
+
+.search-bar {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 10px 40px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.search-bar input, .search-bar .select-box {
+  width: auto;
+  background: transparent;
+}
+.search-bar .form-group {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.search-bar .price input:first-child {
+  margin-right: 5px;
+}
+.search-bar .plugin-hooks .row {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0;
+}
+.search-bar .btn-primary {
+  background: transparent;
+  color: #777;
+  border: 1px solid #777;
+  margin-top: 10px;
+}
+.search-bar .btn-primary:hover {
+  background: #de3544;
+  color: #fff;
+}
+
+.search .toolbar {
+  padding: .75em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+.search .toolbar .sort {
+  float: right;
+}
+.search .toolbar .sort ul, .search .toolbar .sort li {
+  display: inline-block;
+}
+.search .toolbar .sort ul li a {
+  padding: 7px;
+}
+.search .toolbar .sort .active {
+  color: #de3544;
+}
+
+a.clear {
+  float: left;
+  cursor: pointer;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.clear i {
+  font-size: 1.2em;
+}
+
+.search.listings {
+  margin-left: 250px;
+}
+
+.listings .item {
+  padding: 0;
+  min-width: 200px;
+  max-width: 400px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  position: relative;
+  transition: ease box-shadow 500ms;
+}
+.listings .item:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.listings .item .listing-img {
+  border-bottom: 1px solid #e2e2e2;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 190px;
+}
+.listings .item .listing-img img {
+  display: block;
+  height: auto;
+  width: auto;
+  margin: auto;
+  transition: ease 500ms transform;
+}
+.listings .item .listing-img img:hover {
+  transform: scale(1.1);
+}
+.listings .item .listing-attributes {
+  padding: .5em 1em;
+  line-height: 2em;
+  border-bottom: 1px solid #e2e2e2;
+  min-height: 80px;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+.listings .item .listing-attributes .listing-price {
+  color: #de3544;
+  display: block;
+  font-weight: 500;
+}
+.listings .item .listing-attributes .listing-title {
+  display: block;
+}
+.listings .item .listing-attributes .listing-category {
+  font-size: 0.85em;
+  line-height: 1.2em;
+  text-decoration: none;
+}
+.listings .item .listing-attributes .listing-location {
+  display: block;
+  color: #a2a2a2;
+  font-size: 0.85em;
+  height: 2em;
+  line-height: 2;
+}
+.listings .item .listing-attributes .listing-location .fa {
+  margin-right: 5px;
+  line-height: 2;
+}
+.listings .item .listing-seller {
+  padding: .5em 1em;
+  font-size: .9em;
+  color: #b5b5b5;
+  cursor: pointer;
+  display: inline-block;
+}
+.listings .item .listing-seller:hover {
+  color: #de3544;
+}
+.listings .item .listing-seller .listing-seller-avatar {
+  float: left;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.listings .item .listing-seller .seller-name {
+  max-width: 160px;
+  overflow: hidden;
+  line-height: 24px;
+  margin-left: 5px;
+}
+.listings .item .actions > a {
+  color: #b3b3b3;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.listings .item .actions > a:hover {
+  color: #de3544;
+}
+.listings .item .actions .watchlist {
+  font-size: 0;
+}
+.listings .item .admin-options {
+  padding: 7px;
+}
+.listings .item .admin-options .dropdown-toggle {
+  float: right;
+  cursor: pointer;
+  color: #999;
+  font-size: 1.2em;
+}
+.listings .item .admin-options .dropdown-menu {
+  left: auto;
+  right: 0;
+  font-size: 1em;
+}
+
+.masonry .item {
+  width: 250px;
+  height: auto;
+}
+.masonry .item img {
+  height: auto;
+}
+
+.listings .item.premium {
+  border: 1px solid #FFDF00;
+  background-color: #FFF9B8;
+}
+
+.listings .item.ad {
+  text-align: center;
+  background: transparent;
+}
+
+.sub_button {
+  margin-top: 15px;
+  line-height: 2;
+}
+
+.sub_button i {
+  font-size: 1.4em;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.sub_button:hover {
+  color: #de3544;
+}
+
+/*# sourceMappingURL=search.css.map */
