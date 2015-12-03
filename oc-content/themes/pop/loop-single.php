@@ -54,7 +54,7 @@ if (osc_item_is_premium()) {
             <?php } ?>
         </div>
         <div>
-            <i class="material-icons">visibility</i>
+            <i class="ionicons ion-eye"></i>
             <?php echo osc_item_views() ?> <?php _e('views')?>
 
         </div>
@@ -69,25 +69,25 @@ if (osc_item_is_premium()) {
         </div>-->
 
         <a class="link" href="<?php echo osc_item_edit_url(); ?>" rel="nofollow">
-            <i class="material-icons">edit</i>
+            <i class="ionicons ion-edit"></i>
             <?php _e('Edit item', 'pop'); ?></a>
         <a href="#" class="link delete" onclick="confirmDelete('#dialog-delete-item','<?php echo osc_item_delete_url(); ?>')" >
-            <i class="material-icons">delete</i>
+            <i class="ionicons ion-trash-b"></i>
             <?php _e('Delete', 'pop'); ?></a>
         <?php if(osc_item_is_inactive()) {?>
         <a class="link" href="<?php echo osc_item_activate_url();?>">
-            <i class="material-icons">check_circle</i>
+            <i class="ionicons ion-checkmark-circled"></i>
             <?php _e('Activate', 'pop'); ?>
         </a>
         <?php } else { ?>
         <a class="link" href="<?php echo osc_item_deactivate_url();?>">
-            <i class="material-icons">block</i>
+            <i class="ionicons ion-minus-circled"></i>
             <?php _e('Deactivate', 'pop'); ?>
         </a>
         <?php } ?>
         <?php if(osc_item_is_expired()) { ?>
         <a class="link" href="<?php if (function_exists('republish_url')) {echo republish_url();} ?>">
-            <i class="material-icons">autorenew</i>
+            <i class="ionicons ion-refresh"></i>
 
             <?php _e('Republish', 'pop'); ?>
         </a>
@@ -118,7 +118,7 @@ if (osc_item_is_premium()) {
 
     <?php if (!$admin) { ?>
     <div class="actions pull-right">
-        <a href="<?php echo osc_esc_html(pop_facebook_share_url()); ?>" title="<?php _e('Share','pop')?>"><i class="material-icons">share</i></a>
+        <a href="<?php echo osc_esc_html(pop_facebook_share_url()); ?>" title="<?php _e('Share','pop')?>"><i class="ionicons ion-android-share-alt"></i></a>
         <?php watchlist(); ?>
     </div>
     <?php } ?>

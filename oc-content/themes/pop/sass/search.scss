@@ -218,9 +218,10 @@ margin-left: 5px;
 
 .actions > a {
 color: #b3b3b3;
-margin-right: 5px;
+margin-right: 8px;
 display: inline-block;
 vertical-align: middle;
+font-size: 21px;
 }
 
 .actions > a:hover {
@@ -233,6 +234,10 @@ font-size: 0;
 
 .admin-options {
 padding: 7px;
+
+i {
+font-size: 1.2em;
+}
 
 .dropdown-toggle {
 float: right;

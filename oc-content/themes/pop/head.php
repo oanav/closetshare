@@ -94,6 +94,7 @@ osc_enqueue_script('sweetalert');
 <link href="<?php echo osc_current_web_theme_url('js/jquery-ui/jquery-ui-1.10.2.custom.min.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo osc_current_web_theme_url('js/sweetalert/sweetalert.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo osc_current_web_theme_url('fonts/font-awesome-4.3.0/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css" />
+<link href="<?php echo osc_current_web_theme_url('css/ionicons.css'); ?>" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 

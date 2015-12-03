@@ -989,12 +989,9 @@ body.custom #sidebar {
         font-size: 1em;
         display: block;
         text-decoration: none; }
-      body.user #sidebar ul.user_menu li a:hover,
-      body.custom #sidebar ul.user_menu li a:hover {
-        color: #fff; }
     body.user #sidebar ul.user_menu li:hover,
     body.custom #sidebar ul.user_menu li:hover {
-      background: #de3544; }
+      background: #f2f2f2; }
 body.user .user-content,
 body.custom .user-content {
   padding: 15px 25px; }
@@ -1056,7 +1053,7 @@ body .cc-cookies {
   display: inline-block; }
 
 .watchlist span:before {
-  font-family: 'Material Icons';
+  font-family: 'Ionicons';
   font-size: 24px;
   cursor: pointer; }
 
@@ -1064,15 +1061,15 @@ body .cc-cookies {
   color: #de3544; }
 
 .watchlist.full span:before {
-  content: "\E87D";
+  content: "\f443";
   color: #de3544; }
   .watchlist.full span:before :hover {
-    content: "\E87E"; }
+    content: "\f442"; }
 
 .watchlist.empty span:before {
-  content: "\E87E"; }
+  content: "\f442"; }
   .watchlist.empty span:before :hover {
-    content: "\E87D"; }
+    content: "\f443"; }
 
 /** Item Post*/
 body.item-post .box {

@@ -1397,12 +1397,11 @@ text-decoration: none;
 }
 
 a:hover {
-color: #fff;
 }
 }
 
 li:hover {
-background: $maincolor;
+background: #f2f2f2;
 }
 }
 }
@@ -1480,7 +1479,7 @@ display: inline-block;
 }
 
 .watchlist span:before {
-font-family: 'Material Icons';
+font-family: 'Ionicons';
 font-size: 24px;
 cursor: pointer;
 }
@@ -1490,19 +1489,19 @@ color: $maincolor;
 }
 
 .watchlist.full span:before {
-content: "\E87D";
+content: "\f443";
 color: $maincolor;
 
 :hover {
-content: "\E87E";
+content: "\f442";
 }
 }
 
 .watchlist.empty span:before {
-content: "\E87E";
+content: "\f442";
 
 :hover {
-content: "\E87D";
+content: "\f443";
 }
 }
 

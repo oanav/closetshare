@@ -134,18 +134,18 @@ div.select-box-focus {
 .select-box-icon {
   z-index: 0;
   position: absolute;
-  top: 0;
+  top: 5px;
   right: 5px;
   height: 100%;
   width: 24px;
   text-decoration: none;
   display: block;
-  font-family: "Material Icons";
-  font-size: 24px;
+  font-family: "Ionicons";
   text-align: left;
+  font-size: 16px;
 }
 .select-box-icon:before {
-  content: "\E5CF";
+  content: "\f123";
 }
 
 input.ui-button,
@@ -2147,13 +2147,9 @@ body.custom #sidebar ul.user_menu li a {
   display: block;
   text-decoration: none;
 }
-body.user #sidebar ul.user_menu li a:hover,
-body.custom #sidebar ul.user_menu li a:hover {
-  color: #fff;
-}
 body.user #sidebar ul.user_menu li:hover,
 body.custom #sidebar ul.user_menu li:hover {
-  background: #de3544;
+  background: #f2f2f2;
 }
 body.user .user-content,
 body.custom .user-content {
@@ -2228,7 +2224,7 @@ body .cc-cookies {
 }
 
 .watchlist span:before {
-  font-family: 'Material Icons';
+  font-family: 'Ionicons';
   font-size: 24px;
   cursor: pointer;
 }
@@ -2238,18 +2234,18 @@ body .cc-cookies {
 }
 
 .watchlist.full span:before {
-  content: "\E87D";
+  content: "\f443";
   color: #de3544;
 }
 .watchlist.full span:before :hover {
-  content: "\E87E";
+  content: "\f442";
 }
 
 .watchlist.empty span:before {
-  content: "\E87E";
+  content: "\f442";
 }
 .watchlist.empty span:before :hover {
-  content: "\E87D";
+  content: "\f443";
 }
 
 /** Item Post*/
@@ -2377,7 +2373,6 @@ body.item-post .box {
   cursor: pointer;
   height: 40px;
   width: 45px;
-  line-height: 40px;
   text-align: center;
   font-size: 26px;
   transition: background ease 500ms;
@@ -2402,14 +2397,10 @@ body.item-post .box {
   font-size: 1em;
 }
 
-.dropdown-menu > li:hover {
-  color: #fff;
-  background-color: #de3544;
-}
-
+.dropdown-menu > li:hover,
 .dropdown-menu > li:hover > a {
-  color: #fff;
-  background-color: #de3544;
+  color: #de3544;
+  background-color: #f2f2f2;
 }
 
 .dropdown-menu li {
@@ -3131,9 +3122,10 @@ a.clear {
 }
 .listings .item .actions > a {
   color: #b3b3b3;
-  margin-right: 5px;
+  margin-right: 8px;
   display: inline-block;
   vertical-align: middle;
+  font-size: 21px;
 }
 .listings .item .actions > a:hover {
   color: #de3544;
@@ -3143,6 +3135,9 @@ a.clear {
 }
 .listings .item .admin-options {
   padding: 7px;
+}
+.listings .item .admin-options i {
+  font-size: 1.2em;
 }
 .listings .item .admin-options .dropdown-toggle {
   float: right;

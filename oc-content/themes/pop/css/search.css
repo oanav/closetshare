@@ -143,15 +143,18 @@ a.clear {
       margin-left: 5px; }
   .listings .item .actions > a {
     color: #b3b3b3;
-    margin-right: 5px;
+    margin-right: 8px;
     display: inline-block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    font-size: 21px; }
   .listings .item .actions > a:hover {
     color: #de3544; }
   .listings .item .actions .watchlist {
     font-size: 0; }
   .listings .item .admin-options {
     padding: 7px; }
+    .listings .item .admin-options i {
+      font-size: 1.2em; }
     .listings .item .admin-options .dropdown-toggle {
       float: right;
       cursor: pointer;

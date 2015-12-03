@@ -11,7 +11,7 @@
                 <ul class="pull-left">
               
                      <li><a href="<?php echo osc_contact_url(); ?>"><?php _e('Contact', 'pop'); ?></a></li> 
-<li><a href=""><?php _e('Help', 'pop'); ?></a></
+<li><a href=""><?php _e('Help', 'pop'); ?></a></li>
                 </ul>
                 <ul class="pull-right">
 
@@ -82,7 +82,7 @@
                <div class="pure-menu pull-right">
 
                             <a href="<?php echo osc_item_post_url_in_category(); ?>" class="btn btn-primary">
-<i class="material-icons">add</i>
+<i class="ionicons ion-plus"></i>
 <?php _e('Publish new listing', 'pop'); ?></a>
 
 
@@ -114,7 +114,7 @@
                 <form action="<?php echo osc_base_url(true); ?>" method="get" class="search search-header nocsrf" >
                     <input type="hidden" name="page" value="search" />
                     <input type="text" name="sPattern" id="query" class="input-text hidden-mobile" value="<?php echo osc_esc_html(Params::getParam('sPattern')); ?>" placeholder="<?php echo osc_esc_html(__(osc_get_preference('keyword_placeholder', 'pop_theme'), 'pop')); ?>" />
-                    <i class="material-icons icon-search" title="<?php echo _e('Search', 'pop'); ?>">search</i>
+                    <i class="ionicons ion-search icon-search" title="<?php echo _e('Search', 'pop'); ?>"></i>
                 </form>
                 </div>
             </div>

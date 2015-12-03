@@ -49,7 +49,6 @@
   cursor: pointer;
   height: 40px;
   width: 45px;
-  line-height: 40px;
   text-align: center;
   font-size: 26px;
   transition: background ease 500ms;
@@ -74,14 +73,10 @@
   font-size: 1em;
 }
 
-.dropdown-menu > li:hover {
-  color: #fff;
-  background-color: #de3544;
-}
-
+.dropdown-menu > li:hover,
 .dropdown-menu > li:hover > a {
-  color: #fff;
-  background-color: #de3544;
+  color: #de3544;
+  background-color: #f2f2f2;
 }
 
 .dropdown-menu li {
