@@ -8,16 +8,30 @@
     <div class="navbar navbar-fixed-top" id="menu">
         <div class="top-header">
             <div class="container">
-                <ul class="pull-left">
               
-                     <li><a href="<?php echo osc_contact_url(); ?>"><?php _e('Contact', 'pop'); ?></a></li> 
-<li><a href=""><?php _e('Help', 'pop'); ?></a></li>
+              
+            </div>
+        </div>
+        <div class=" header container">
+            <div class="pull-left">
+                    <?php echo logo_header(); ?>
+                    <a href="#" class="custom-toggle hidden" id="toggle">
+                        <s class="bar"></s><s class="bar"></s>
+                    </a>
+
+                      <ul class="page-list">
+                     <li>
+                        <a href="<?php echo osc_contact_url(); ?>"><i class="fa fa-envelope"></i><?php _e('Contact', 'pop'); ?></a>
+                        </li> 
+                        <li>
+<a href=""><i class="fa fa-question"></i><?php _e('Help', 'pop'); ?></a>
+</li>
                 </ul>
-                <ul class="pull-right">
+            </div>
+               <div class="pull-right">
 
                     <?php if (osc_is_web_user_logged_in()) { ?>
                     <?php
-
                               $user_id = OSCFacebook::newInstance()->getUser();
                               if ($user_id) {
                                   $user_picture_url = 'https://graph.facebook.com/'.$user_id.'/picture';
@@ -25,15 +39,12 @@
                                   $user_picture_url = osc_current_web_theme_url('images/user_default.gif');
                               }
                     ?>
-
-
-                    <li class="">
-                        <div id="dLabel" class="logo-user-menu dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
+                        <div id="dLabel" class="logo-user-menu" >
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img class="user-avatar" src="<?php echo $user_picture_url ?>" />
                             <span class="name"><?php echo osc_logged_user_name(); ?></span>
                             <i class="fa fa-caret-down"></i>
-                        </div>
+                            </a>
                         <ul class="dropdown-menu user-menu" role="menu" aria-labelledby="dLabel">
                             <li>
                                 <a href="<?php echo osc_user_list_items_url(); ?>"><?php _e('My listings', 'pop'); ?></a></li>
@@ -51,84 +62,61 @@
                                 <a href="<?php echo osc_user_logout_url(); ?>"><?php _e('Logout', 'pop'); ?></a>
                             </li>
                         </ul>
+                        </div>
 
-                    </li>
                     <?php } else { ?>
-                    <li>
-
                         <a href="<?php echo osc_user_login_url(); ?>">
-<i class="ionicons ion-person"></i>
-<?php _e('New account', 'pop'); ?></a>
-</li>
-                    <li>
-
-                        <a href="<?php echo osc_user_login_url(); ?>">
-                        <i class="ionicons ion-locked"></i>
+                        <i class="fa fa-user"></i>
 <?php _e('Login', 'pop'); ?></a>
 </li>
-
                     <?php } ?>
-                </ul>
-            </div>
-
-        </div>
-        <div class=" header container">
-            <div class="pull-left">
-                    <?php echo logo_header(); ?>
-                    <a href="#" class="custom-toggle hidden" id="toggle">
-                        <s class="bar"></s><s class="bar"></s>
-                    </a>
-            </div>
-               <div class="pure-menu pull-right">
 
                             <a href="<?php echo osc_item_post_url_in_category(); ?>" class="btn btn-primary">
-<i class="ionicons ion-plus"></i>
+<i class="fa fa-plus"></i>
 <?php _e('Publish new listing', 'pop'); ?></a>
 
 
                 </div>
             <div class="text-center">
                 <div class="categories-dropdown">
-                    <span class="fa fa-bars"></span>
-                    <span><?php _e('Categories','pop') ?></span>
-                    <ul>
+                    <a>
+                    <i class="fa fa-bars"></i>
+                    <?php _e('Categories','pop') ?>
+                    </a>
+                    <div class="dropdown">
                         <?php $i=0;
                               while(osc_has_categories()) { ?>
-                        <li>
-                            <a href="<?php echo osc_search_category_url()?>"><?php echo osc_category_name();?></a>
-                            <?php if (osc_count_subcategories() > 0) { ?>
+                              
                             <ul>
+                             <li class="cat"><a href="<?php echo osc_search_category_url()?>"><?php echo osc_category_name();?></a></li>
+                           
                                 <?php while (osc_has_subcategories()) { ?>
-                                <li>
+                                <li class="subcat">
                                     <a href="<?php echo osc_search_category_url()?>"><?php echo osc_category_name();?></a>
                                 </li>
+
                                 <?php } ?>
                             </ul>
-                            <?php } ?>
-                        </li>
+
                         <?php              $i++;
                               } ?>
-                    </ul>
+                              </div>
                 </div>
-                <div class="pure-menu">
-                <form action="<?php echo osc_base_url(true); ?>" method="get" class="search search-header nocsrf" >
-                    <input type="hidden" name="page" value="search" />
-                    <input type="text" name="sPattern" id="query" class="input-text hidden-mobile" value="<?php echo osc_esc_html(Params::getParam('sPattern')); ?>" placeholder="<?php echo osc_esc_html(__(osc_get_preference('keyword_placeholder', 'pop_theme'), 'pop')); ?>" />
-                    <i class="ionicons ion-search icon-search" title="<?php echo _e('Search', 'pop'); ?>"></i>
-                </form>
+                <div class="search-dropdown">
+                <a>
+               <i class="fa fa-search"></i>
+                 <?php _e('Search','pop') ?>
+                 </a>
+                 <div class="header-search">
+                 <?php require WebThemes::newInstance()->getCurrentThemePath() . 'inc.quick.search.php';?></div>
                 </div>
             </div>
              
-        </div>
-        <div class="subheader">
-            <div class="container">
-            </div>
         </div>
     </div>
     <div id="content">
 
         <div class="error_list">
-
             <?php osc_show_flash_message(); ?>
         </div>
         <?php
@@ -149,55 +137,6 @@
         <!-- /header ad 728x60-->
         <?php } ?>
         <?php osc_run_hook('before-main'); ?>
-        <?php 
-        if(osc_is_home_page())
-        {?>
-        <div id="header_map">
-
-        <div class="overlay">
-            <div class="headline">
-                <h1>Reinoieste-ti garderoba!</h1>
-                <h6>Bazar online cu haine, incaltaminte si accesorii noi si second hand</h6>
-            </div>
-            </div>
-
-            <form action="<?php echo osc_base_url(true); ?>" id="main_search" method="get" class="search nocsrf">
-                <div class="container">
-                    <input type="hidden" name="page" value="search" />
-                    <div class="main-search">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="cell">
-                                    <input type="text" name="sPattern" id="query" class="input-text" value="" placeholder="<?php _e('Search...', 'pop'); ?>" />
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="cell selector">
-                                    <?php osc_categories_select('sCategory', null, __('Select a category', 'pop')) ; ?>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="cell selector">
-                                    <?php 
-            $aCountries = osc_get_countries();
-            $aRegions = osc_get_regions($aCountries[0]['pk_c_code']);
-                                    ?>
-                                    <?php ItemForm::region_select($aRegions); ?>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="cell">
-                                    <button class="btn btn-primary btn_search">
-                                        <?php _e("Search", 'pop');?>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="message-seach"></div>
-                    </div>
-                </div>
-            </form>
-            <?php } ?>
         </div>
 
 

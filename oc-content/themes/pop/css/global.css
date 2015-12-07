@@ -232,7 +232,8 @@ section.gray {
   #footer .share-links li a {
     background: #ddd;
     color: #242121;
-    border: 0; }
+    border: 0;
+    text-decoration: none; }
 
 /* Masonry */
 .loading-bar {
@@ -266,9 +267,33 @@ section.gray {
   display: inline-block;
   vertical-align: top;
   text-align: left; }
+  .latest_ads .listings .item .item-footer,
+  .similar.listings .item .item-footer {
+    display: none; }
   .latest_ads .listings .item img,
   .similar.listings .item img {
     height: 250px; }
+
+.main-search {
+  margin: auto;
+  width: 90%; }
+
+.quick-search {
+  padding: 20px;
+  background: rgba(35, 35, 35, 0.85);
+  width: 100%; }
+  .quick-search input, .quick-search .select-box, .quick-search .btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 45px;
+    line-heigth: 45px; }
+  .quick-search .select-box option {
+    background: rgba(21, 21, 21, 0.8); }
+  .quick-search .select-box a, .quick-search .input-text label, .quick-search .btn {
+    color: #fff;
+    font-size: 18px; }
 
 .item .listing-category a,
 .item .item-category a {
@@ -768,33 +793,7 @@ li > .dropdown-menu {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
 
 /* share links social media */
-.share-icon {
-  width: 24px;
-  height: 24px;
-  background-size: 24px 24px;
-  margin-right: 0.8em;
-  display: block;
-  display: inline-block; }
-
-.share-icon-bg {
-  width: 48px;
-  height: 48px;
-  background-size: 48px 48px;
-  margin-right: 0.8em;
-  display: block;
-  display: inline-block; }
-
-.facebook-icon {
-  background-image: url("../images/Facebook-48.png"); }
-
-.twitter-icon {
-  background-image: url("../images/Twitter-Bird-48.png"); }
-
-.email-icon {
-  background-image: url("../images/Send-To-48.png"); }
-
-.share-icon {
-  /* global button class */
+a.share-icon {
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -812,45 +811,33 @@ li > .dropdown-menu {
   height: 40px;
   line-height: 34px;
   background: #fff; }
-
-.share-icon:hover {
-  color: #de3544;
-  border-color: #de3544; }
-
-.email-icon:before {
-  content: '\f0e0';
-  font-family: "FontAwesome"; }
-
-.facebook-icon {
-  border-color: #3b5998;
-  color: #3b5998; }
-
-.facebook-icon:before {
-  font-family: "FontAwesome";
-  content: "\f09a"; }
-
-.twitter-icon {
-  color: #00aced;
-  border-color: #00aced; }
-
-.twitter-icon:before {
-  font-family: "FontAwesome";
-  content: "\f099";
-  /* add twitter icon */ }
-
-.googleplus-icon {
-  color: #d34836;
-  border-color: #d34836; }
-
-.googleplus-icon:before {
-  font-family: "FontAwesome";
-  content: "\f0d5";
-  /* add googleplus icon */ }
-
-.pinterest-icon:before {
-  font-family: "FontAwesome";
-  content: "\f0d2";
-  /* add pinterest icon */ }
+  a.share-icon:hover {
+    color: #de3544;
+    border-color: #de3544; }
+  a.share-icon.email-icon:before {
+    content: '\f0e0';
+    font-family: "FontAwesome"; }
+  a.share-icon.facebook-icon {
+    border-color: #3b5998;
+    color: #3b5998; }
+  a.share-icon.facebook-icon:before {
+    font-family: "FontAwesome";
+    content: "\f09a"; }
+  a.share-icon.twitter-icon {
+    color: #00aced;
+    border-color: #00aced; }
+  a.share-icon.twitter-icon:before {
+    font-family: "FontAwesome";
+    content: "\f099"; }
+  a.share-icon.googleplus-icon {
+    color: #d34836;
+    border-color: #d34836; }
+  a.share-icon.googleplus-icon:before {
+    font-family: "FontAwesome";
+    content: "\f0d5"; }
+  a.share-icon.pinterest-icon:before {
+    font-family: "FontAwesome";
+    content: "\f0d2"; }
 
 .wrapper.ads_header {
   padding: .5em 0px;
@@ -1122,17 +1109,16 @@ body.item-post .box {
   right: 20px;
   width: 50px;
   height: 50px;
-  background: #333;
-  opacity: .5;
+  background: #de3544;
+  opacity: .8;
   color: #fff;
   font-size: 35px;
   padding: 7px;
   border-radius: 50%;
   transition: ease all .5s;
-  cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); }
+  cursor: pointer; }
 
 .back-to-top:hover {
-  opacity: .7; }
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7); }
 
 /*# sourceMappingURL=global.css.map */

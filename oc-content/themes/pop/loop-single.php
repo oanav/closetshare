@@ -96,7 +96,10 @@ if (osc_item_is_premium()) {
     <?php } ?>
 
     <div class="clear"></div>
-    <?php } else if(osc_item_user_id()!='') {
+    <?php } else if(osc_item_user_id()!='' && !$admin) { ?>
+
+    <div class="item-footer">
+    <?php
               View::newInstance()->_exportVariableToView('user', User::newInstance()->findByPrimaryKey(osc_item_user_id()));
     ?>
     <?php 
@@ -107,6 +110,7 @@ if (osc_item_is_premium()) {
                   $user_picture_url =  osc_current_web_theme_url('images/user_default.gif');
               }
     ?>
+
     <a href="<?php echo osc_user_public_profile_url(); ?>">
 
 
@@ -116,13 +120,14 @@ if (osc_item_is_premium()) {
         </div>
     </a>
 
-    <?php if (!$admin) { ?>
+
     <div class="actions pull-right">
         <a href="<?php echo osc_esc_html(pop_facebook_share_url()); ?>" title="<?php _e('Share','pop')?>"><i class="ionicons ion-android-share-alt"></i></a>
         <?php watchlist(); ?>
     </div>
+    </div>
     <?php } ?>
 
-    <?php } ?>
+
 
 </div>

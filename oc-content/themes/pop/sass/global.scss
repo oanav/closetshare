@@ -329,6 +329,7 @@ display: inline-block;
 background: #ddd;
 color: $darkgray;
 border: 0;
+text-decoration: none;
 }
 }
 /* Masonry */
@@ -371,12 +372,40 @@ display: inline-block;
 vertical-align: top;
 text-align: left;
 
+.item-footer {
+display: none;
+}
+
 img {
 height: 250px;
 }
 }
 
+.main-search {
+margin:auto;
+width: 90%;
+}
 
+.quick-search {
+padding: 20px;
+background: rgba(35, 35, 35, 0.85);
+width: 100%;
+
+input, .select-box, .btn {
+width: 100%;
+background: transparent;
+border: 1px solid #fff;
+color: #fff;
+height: 45px;
+line-heigth: 45px;
+}
+
+.select-box option { background: rgba(21, 21, 21, 0.8);} 
+.select-box a, .input-text label, .btn {
+color: #fff;
+font-size: 18px;
+}
+}
 
 .item .listing-category a,
 .item .item-category a {
@@ -1098,38 +1127,7 @@ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 
 /* share links social media */
 
-.share-icon {
-width: 24px;
-height: 24px;
-background-size: 24px 24px;
-margin-right: 0.8em;
-display: block;
-display: inline-block;
-}
-
-.share-icon-bg {
-width: 48px;
-height: 48px;
-background-size: 48px 48px;
-margin-right: 0.8em;
-display: block;
-display: inline-block;
-}
-
-.facebook-icon {
-background-image: url("../images/Facebook-48.png");
-}
-
-.twitter-icon {
-background-image: url("../images/Twitter-Bird-48.png");
-}
-
-.email-icon {
-background-image: url("../images/Send-To-48.png");
-}
-
-.share-icon {
-/* global button class */
+a.share-icon {
 display: inline-block;
 position: relative;
 cursor: pointer;
@@ -1147,54 +1145,52 @@ width: 40px;
 height: 40px;
 line-height: 34px;
 background: #fff;
-}
 
-.share-icon:hover {
+
+&:hover {
 color: $maincolor;
 border-color: $maincolor;
 }
 
-.email-icon:before {
+&.email-icon:before {
 content: '\f0e0';
 font-family: "FontAwesome";
 }
 
-.facebook-icon {
+&.facebook-icon {
 border-color: #3b5998;
 color: #3b5998;
 }
 
-.facebook-icon:before {
+&.facebook-icon:before {
 font-family: "FontAwesome";
 content: "\f09a";
 }
 
-.twitter-icon {
+&.twitter-icon {
 color: #00aced;
 border-color: #00aced;
 }
 
-.twitter-icon:before {
+&.twitter-icon:before {
 font-family: "FontAwesome";
 content: "\f099";
-/* add twitter icon */
 }
 
-.googleplus-icon {
+&.googleplus-icon {
 color: #d34836;
 border-color: #d34836;
 }
 
-.googleplus-icon:before {
+&.googleplus-icon:before {
 font-family: "FontAwesome";
 content: "\f0d5";
-/* add googleplus icon */
 }
 
-.pinterest-icon:before {
+&.pinterest-icon:before {
 font-family: "FontAwesome";
 content: "\f0d2";
-/* add pinterest icon */
+}
 }
 
 .wrapper.ads_header {
@@ -1576,17 +1572,16 @@ bottom: -50px;
 right: 20px;
 width: 50px;
 height: 50px;
-background: #333;
-opacity: .5;
+background: $maincolor;
+opacity: .8;
 color: #fff;
 font-size: 35px;
 padding: 7px;
 border-radius: 50%;
 transition: ease all .5s;
 cursor: pointer;
-box-shadow: 0 2px 6px rgba(0,0,0,.5);
 }
 
 .back-to-top:hover {
-opacity: .7;
+box-shadow: 1px 2px 5px rgba(0,0,0,.7);
 }

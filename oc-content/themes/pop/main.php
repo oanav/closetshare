@@ -5,6 +5,19 @@ pop_add_body_class('home');
 $listClass   = '';
 ?>
 <?php osc_current_web_theme_path('header.php') ; ?>
+   <div id="header_map">
+
+        <div class="overlay">
+            <div class="headline">
+                <h1>Reinoieste-ti garderoba!</h1>
+                <h6>Bazar online cu haine, incaltaminte si accesorii noi si second hand</h6>
+            </div>
+        <div class="main-search">
+      <?php require WebThemes::newInstance()->getCurrentThemePath() . 'inc.quick.search.php';?>
+      </div>
+        </div>
+
+      </div>
 <section class="categories">
 
     <div class="container text-center">

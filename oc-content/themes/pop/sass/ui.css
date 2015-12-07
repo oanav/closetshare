@@ -1,14 +1,13 @@
 .has-placeholder {
   position: relative;
   display: block;
-  float: left;
 }
 .has-placeholder label {
   position: absolute;
   top: 0;
   left: 0;
   vertical-align: middle;
-  color: #646464;
+  color: #939393;
   line-height: 38px;
   height: 100%;
   width: 100%;
@@ -60,7 +59,8 @@ a {
 }
 
 a:hover {
-  color: #de3544;
+  color: #535353;
+  text-decoration: underline;
 }
 
 a.btn:hover {

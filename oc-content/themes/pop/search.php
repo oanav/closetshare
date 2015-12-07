@@ -31,15 +31,16 @@ View::newInstance()->_exportVariableToView("listClass", $listClass);
 ?>
 <div class="container">
     
-        <div class="search-sidebar hidden-mobile">
-     <!--   <div class="box category">
-      <h3> <?php _e('Categories', 'pop'); ?></h3>
+      <div class="search-sidebar hidden-mobile">
+       <div class="box category">
+      <h4> <?php _e('Categories', 'pop'); ?></h4>
         <div id="ssCategory" class="collapse in">
        <?php pop_sidebar_category_search($current_category_id); ?>
             </div>
-        </div>-->
+        </div>
         <div class="box filter">
-            <div id="ssFilter" class="collapse in">
+        <h4> <?php _e('Filters', 'pop'); ?></h4>
+            <div id="ssFilter" >
             <?php require WebThemes::newInstance()->getCurrentThemePath() . 'inc.search.filters.php';?>
             </div>
         </div>
@@ -47,7 +48,7 @@ View::newInstance()->_exportVariableToView("listClass", $listClass);
             <?php require WebThemes::newInstance()->getCurrentThemePath() . 'inc.alert.form.php'; ?>
         </div>
     </div>
- <!--   <div class="search-bar"> <?php // require WebThemes::newInstance()->getCurrentThemePath() . 'inc.search.filters.php';?></div>-->
+   <!--<div class="search-bar"> <?php //require WebThemes::newInstance()->getCurrentThemePath() . 'inc.search.filters.php';?></div>-->
     <div class="search listings">
 
         <div class="toolbar">

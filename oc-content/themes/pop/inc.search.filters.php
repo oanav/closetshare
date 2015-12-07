@@ -5,10 +5,10 @@
         <?php foreach(osc_search_user() as $userId) { ?>
         <input type="hidden" name="sUser[]" value="<?php echo $userId; ?>" />
         <?php } ?>
-        <fieldset class="form-group">
+       <!-- <fieldset class="form-group">
             <label> <?php _e('Category', 'pop')?></label>
             <?php osc_categories_select('Scategory', $category) ?>
-        </fieldset>
+        </fieldset>-->
         <fieldset class="form-group">
             <label>
                 <?php _e('Key words', 'pop'); ?>

@@ -11,25 +11,20 @@ border: 0;
 
 .logo img {
 width: auto;
-height: 50px;
+height: 60px;
 }
 
-.pure-menu {
-padding: 10px 0;
+.page-list, .page-list li {
 display: inline-block;
 }
 
-.pure-menu > a:hover {
-color: $maincolor;
-}
-
-.pure-menu .btn-primary {
+.btn-primary {
 line-height: 1.8;
 font-size: 16px;
 font-weight: 500;
 }
 
-.pure-menu .btn-primary:hover {
+.btn-primary:hover {
 color: #fff;
 }
 
@@ -37,9 +32,6 @@ color: #fff;
 display: inline-block;
 }
 
-ul li a {
-font-size: 14px;
-}
 }
 
 .divider {
@@ -125,20 +117,26 @@ display: block;
 
 .user-avatar {
 border-radius: 50%;
-width: 26px;
-height: 26px;
+width: 30px;
+height: 30px;
 margin-right: 5px;
 }
 
 .logo-user-menu {
-background: none;
-margin-left: 10px;
-cursor: pointer;
+display: inline-block;
+margin-right: 10px;
 position: relative;
-color: #fff;
+
+> a {
+display:inline-block;
+padding: 0 10px;
+cursor: pointer;
+height: 65px;
+line-height: 65px;
 
 &:hover {
-text-decoration: underline;
+background: #f5f5f5;
+}
 }
 
 .fa {
@@ -147,7 +145,8 @@ margin-left: 5px;
 }
 
 + .dropdown-menu {
-top: 40px;
+right: auto;
+left: 0;
 }
 }
 
@@ -156,11 +155,6 @@ display: block;
 text-align: left;
 z-index: 9999;
 width: 200px;
-}
-
-
-.pure-menu-item .dropdown-menu {
-line-height: 1.8;
 }
 
 .custom-wrapper {
@@ -174,7 +168,7 @@ background-color: $darkgray;
 box-shadow: rgba(50, 50, 50, 0.168627) 0 1px 10px 0;
 }
 
-li.pure-menu-item {
+.pure-menu-item {
 list-style: none;
 display: inline-block;
 vertical-align: middle;
@@ -268,59 +262,81 @@ color: #fff;
 }
 }
 
-.categories-dropdown {
+.categories-dropdown, .search-dropdown {
 display: inline-block;
-margin-right: 30px;
-text-transform: uppercase;
-font-size: 22px;
-position: relative;
-height: 60px;
-line-height: 60px;
 text-align: left;
 
-> ul {
-position: absolute;
-display: none;
-top: 100%;
+> a {
+text-transform: uppercase;
+font-size: 1.3em;
+cursor: pointer;
+text-decoration: none;
+line-height: 65px;
+display: block;
+padding: 0 15px;
+transition: all ease .5s;
+}
+> a:hover {
+background:#444;
+color:#fff;
+}
+
+}
+
+.categories-dropdown {
+.dropdown {
+position: fixed;
+left:0;
+top: 65px;
+visibility: hidden;
+opacity: 0;
 background: #fff;
-border: 1px solid #777;
-border-top: 4px solid #555;
-padding: 15px;
-width: 460px;
-font-size: 18px;
-min-height: 250px;
+border-top: 3px solid #6a6a6a;
+border-bottom: 3px solid #6a6a6a;
+width: 100%;
 line-height: 1.6;
+text-align: center;
+transition: all ease 700ms;
+
+> ul {
+display: inline-block;
+vertical-align: top;
+padding: 15px 30px;
+text-transform: none;
 }
 
 > ul li a {
-display: inline-block;
-padding: 6px 12px;
-width: 50%;
+font-size: 16px;
 }
 
-> ul > li:hover > a {
-background: #333;
-color: #fff;
+li.cat {
+text-transform: uppercase;
+font-weight: bold;
 }
 
-> ul > li:hover ul {
-display: block;
 }
 
-> ul > li > ul {
-border-left: 1px solid #333;
-display: none;
+&:hover > .dropdown {
+visibility: visible;
+opacity: .95;
+}
+}
+
+.header-search {
+visibility: hidden;
+opacity: 0;
 position: absolute;
-left: 50%;
-top: 0;
-padding: 15px 30px;
-height: 100%;
+top: -65px;
+left: 0;
+transition: all ease 700ms;
+width: 100%;
+z-index: -1;
 }
 
-
-&:hover > ul {
-display: block;
-}
+.search-dropdown:hover .header-search {
+top: 65px;
+visibility: visible;
+opacity: .95;
 }
 
 
@@ -395,23 +411,23 @@ height: auto;
 #header_map {
 background-image: url("../images/blog11.png");
 background-size: cover;
-height: 500px;
+height: 560px;
 width: 100%;
 text-align: center;
 position: relative;
+border-bottom: 1px solid #777;
 
 .overlay {
 width: 100%;
 height: 100%;
-background: rgba(0,0,0,.45);
+background: rgba(33, 30, 30, 0.50);
 }
 
 .headline {
-margin: 0 auto;
-padding-top: 10%;
+margin: auto;
+padding: 120px 0 60px 0;
 color: #fff;
 text-align: center;
-height: 100%;
 max-width: 580px;
 
 h1 {
@@ -440,29 +456,6 @@ width: auto;
 }
 
 
-#main_search {
-padding: 25px;
-background: rgba(0, 0, 0, 0.7);
-bottom: 0;
-width: 90%;
-margin: auto;
-margin-top: -120px;
-
-input, .select-box, .btn {
-width: 100%;
-background: transparent;
-border: 1px solid #fff;
-color: #fff;
-height: 45px;
-line-heigth: 45px;
-}
-
-.select-box a, .input-text label, .btn {
-color: #fff;
-font-size: 18px;
-}
-}
-
 #content {
-padding-top: 100px;
+padding-top: 65px;
 }
